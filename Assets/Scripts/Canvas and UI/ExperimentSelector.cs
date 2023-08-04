@@ -7,6 +7,10 @@ namespace InuCom.SchoolVR.physics
     {
         public GameObject[] expeiments;
         internal static int currentExp { get; set; }
+        private void Start()
+        {
+            currentExp = -1;
+        }
 
         private void Update()
         {

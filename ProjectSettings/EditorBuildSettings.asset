@@ -6,14 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/6.1 Classroom/6.1 Classroom.unity
-    guid: 7d2b8955409720d4e9beffd3454046ab
+    path: Assets/Scenes/6 1 Classroom (New)/6.1 Classroom.unity
+    guid: d87d2d5b8cde55c4b8d69e598d5d66b7
   - enabled: 1
-    path: Assets/Scenes/6.1 Classroom/Inside Room.unity
-    guid: dd65203458909a34980b4e26d44ef5c2
-  - enabled: 0
-    path: Assets/Z_NEW CLASSROOM/NEW CLASSROOM.unity
-    guid: 31c3587119b503549bf63cfbe573690b
+    path: Assets/Scenes/6 1 Classroom (New)/Inside Room.unity
+    guid: 9789bfae9c209a9499c433657b1f6d83
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9c892aa891940c44d85f363d176cede2,
       type: 2}

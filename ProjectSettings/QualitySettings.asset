@@ -21,7 +21,7 @@ QualitySettings:
     skinWeights: 2
     textureQuality: 0
     anisotropicTextures: 1
-    antiAliasing: 2
+    antiAliasing: 4
     softParticles: 0
     softVegetation: 0
     realtimeReflectionProbes: 1
@@ -53,3 +53,4 @@ QualitySettings:
     Standalone: 0
     WebGL: 0
     Windows Store Apps: 0
+    iPhone: 0

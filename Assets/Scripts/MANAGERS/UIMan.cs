@@ -5,6 +5,7 @@ using UnityEngine.Video;
 using InuCom.SchoolVR.UI.Videos;
 using Inucom.SchoolVR.UI;
 using Unity.VisualScripting;
+using InuCom.SchoolVR.physics;
 
 public class UIMan : MonoBehaviour
 {
@@ -33,10 +34,13 @@ public class UIMan : MonoBehaviour
     public Transform leftHandPos, worldCanvasHolderPos, canvasUIParent;
     bool screenBoolPos;
 
+    public Transform worldCanvasHolder;
+
     //----------------------------------------------------------------------------
 
     private void Start()
     {
+        boardInitPos = worldCanvasHolder.position;
         allPanels[0].GetComponentsInChildren(startPanelButtons);
         foreach (Button btn in startPanelButtons) { btn.onClick.AddListener(() => StartPanelButtonFunction(btn.name)); }
         allPanels[1].GetComponentsInChildren(experimentPanelButtons);
@@ -76,5 +80,9 @@ public class UIMan : MonoBehaviour
         foreach (ContentSizeFitter ctx in videoPlayerContextPanel) { ctx.gameObject.SetActive(false); }
         videoPlayerContextPanel[contextIndex - 1].gameObject.SetActive(true);
         LeftButtonsScrollView.content = contextRectTransform[contextIndex ];
+    }
+    public void currentExperiment(int experimentNumber)
+    {
+        ExperimentSelector.currentExp = experimentNumber;
     }
 }
