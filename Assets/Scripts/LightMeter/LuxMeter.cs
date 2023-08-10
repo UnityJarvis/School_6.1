@@ -11,7 +11,9 @@ namespace InuCom.SchoolVR.physics
                 RaycastHit hit;
                 if (Physics.Raycast(rayOrigin.position, rayOrigin.transform.forward,out hit,10,11))
                 {
-                    luxMeterReading3DText.text = ((1/hit.distance) * 100).ToString("00") + " LUX";
+                    float readingg = (1 / hit.distance) * 100;
+                    readingg = Mathf.Clamp(readingg,10,5000);
+                    luxMeterReading3DText.text = readingg.ToString("00") + " LUX";
                 }
                 Debug.DrawRay(rayOrigin.transform.position, rayOrigin.transform.forward, Color.red);
                 return luxMeterReading3DText;

@@ -4699,6 +4699,71 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 800
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796160, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796163, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_text
+      value: "\nSTEPS\n---------\n1.Adjust the flashlight so that the Beam of light
+        is focused (rather than spread out). \r\n\n2.Hold the flashlight above the
+        mat and move it up and down until the entire beam of light falls on the mat.\n\n3.Keep
+        the flashlight at the same height and hold the magnifying glass between the
+        flashlight and the page and move it.\r\n\n4. Hold the magnifying glass about
+        midway between the flashlight and the page and trace around the light.\n\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796163, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796163, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796163, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584867055964796163, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
     - target: {fileID: 4735231057541216225, guid: 8e90247e05e65f74f89c204a07847657,
         type: 3}
       propertyPath: m_Name
@@ -4708,6 +4773,19 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6320259537676170337, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6662220676223979607, guid: 8e90247e05e65f74f89c204a07847657,
+        type: 3}
+      propertyPath: m_text
+      value: "\nSTEPS\n---------\n1. Press enter to go into the cardboard.\n\n2. 
+        Once you enter the box you can see toys behind the mirror and tools that
+        allow you to adjust the light intensity.\n\n3. You can change the light within
+        both rooms and notice the difference. \r\n"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e90247e05e65f74f89c204a07847657, type: 3}
@@ -9888,6 +9966,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569321439153076913, guid: b86b710f16e38ef478535e1890803ddf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -17.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 2569321439153076913, guid: b86b710f16e38ef478535e1890803ddf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 21.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b86b710f16e38ef478535e1890803ddf, type: 3}

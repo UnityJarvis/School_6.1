@@ -28,6 +28,7 @@ public class UIMan : MonoBehaviour
     [Space(5)]
     [Header("Board Position Toggle")]
     public Button toggleBtn;
+    Text toggleBtnText;
     public Vector3 boardInitPos;
     public Vector3 bigBoardScale;
     public Vector3 smallBoardScale;
@@ -40,6 +41,7 @@ public class UIMan : MonoBehaviour
 
     private void Start()
     {
+        toggleBtnText = toggleBtn.GetComponentInChildren<Text>();
         boardInitPos = worldCanvasHolder.position;
         allPanels[0].GetComponentsInChildren(startPanelButtons);
         foreach (Button btn in startPanelButtons) { btn.onClick.AddListener(() => StartPanelButtonFunction(btn.name)); }
@@ -63,7 +65,7 @@ public class UIMan : MonoBehaviour
     private void Update()
     {
         screenBoolPos = CanvasSwitcher.togglerer;
-        CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos);
+        CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos,toggleBtnText);
     }
     void StartPanelButtonFunction(string buttonName)
     {

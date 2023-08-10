@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         fps = FrameRateCalculator();
-        DisplayFPS();
+        //DisplayFPS();
         MirrorConstructionValidator.MirrorValidation(snapPoint, glassGrabbale, MirrorCamRenderer);
     }
     private void FixedUpdate()

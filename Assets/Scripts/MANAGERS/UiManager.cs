@@ -45,7 +45,7 @@ public class UiManager : MonoBehaviour
     private void Update()
     {
         screenBoolPos = CanvasSwitcher.togglerer;
-        CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos);
+        //CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos);
     } 
 
     public void currentExperiment(int experimentNumber)

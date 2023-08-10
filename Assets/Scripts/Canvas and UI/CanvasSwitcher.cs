@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UI;
+
 namespace Inucom.SchoolVR.UI
 {
     public class CanvasSwitcher 
@@ -8,7 +10,7 @@ namespace Inucom.SchoolVR.UI
         {
             togglerer = !togglerer;
         }
-        internal static void ScreenTransition(Vector3 boardInitPos,Vector3 bigBoardScale,Vector3 smallBoardScale, Transform leftHandModelPos, Transform worldCanvasHolderPos, Transform CanvasUI, bool screenBoolValue)
+        internal static void ScreenTransition(Vector3 boardInitPos,Vector3 bigBoardScale,Vector3 smallBoardScale, Transform leftHandModelPos, Transform worldCanvasHolderPos, Transform CanvasUI, bool screenBoolValue, Text toggleText)
         {
             if (screenBoolValue)
             {
@@ -16,6 +18,7 @@ namespace Inucom.SchoolVR.UI
                 CanvasUI.transform.position = Vector3.MoveTowards(CanvasUI.transform.position, boardInitPos, 0.5f);
                 CanvasUI.transform.rotation = Quaternion.Euler(0, 180, 0);
                 CanvasUI.transform.localScale = bigBoardScale;
+                toggleText.text = "Large Screen";
             }
             if (!screenBoolValue)
             {
@@ -23,6 +26,7 @@ namespace Inucom.SchoolVR.UI
                 CanvasUI.transform.position = Vector3.MoveTowards(CanvasUI.transform.position, leftHandModelPos.transform.position, 0.5f);
                 CanvasUI.transform.rotation = leftHandModelPos.transform.rotation;
                 CanvasUI.transform.localScale = smallBoardScale;
+                toggleText.text = "Hand Tablet";
             }
         }
     }
