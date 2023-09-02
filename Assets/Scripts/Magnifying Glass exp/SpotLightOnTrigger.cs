@@ -25,4 +25,21 @@ public class SpotLightOnTrigger : MonoBehaviour
             TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
         }
     }
+    // private void OnCollisionEnter(Collision other)
+    // {
+    //     if (other.gameObject.tag == "Detecter")
+    //     {
+    //         //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
+    //         TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
+    //     }
+
+    // }
+    // private void OnCollisionExit(Collision other)
+    // {
+    //     if (other.gameObject.tag == "Detecter")
+    //     {
+    //         //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
+    //         TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
+    //     }
+    // }
 }

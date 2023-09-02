@@ -43,9 +43,12 @@ public class UIMan : MonoBehaviour
     {
         toggleBtnText = toggleBtn.GetComponentInChildren<Text>();
         boardInitPos = worldCanvasHolder.position;
+
         allPanels[0].GetComponentsInChildren(startPanelButtons);
         foreach (Button btn in startPanelButtons) { btn.onClick.AddListener(() => StartPanelButtonFunction(btn.name)); }
+
         allPanels[1].GetComponentsInChildren(experimentPanelButtons);
+        experimentPanelButtons.RemoveAt(experimentPanelButtons.Count - 1);
         foreach (Button btn in experimentPanelButtons) { btn.onClick.AddListener(() => ExperimentPanelButtonFunction(int.Parse(btn.name))); }
 
         viewport.GetComponentsInChildren(contextRectTransform);

@@ -1,3 +1,7 @@
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
 using UnityEngine;
 using UnityEngine.UI;
 using BNG;
@@ -61,5 +65,14 @@ public class GameManager : MonoBehaviour
     {
         fpsText.text = fps.ToString("000");
     }
+
+    public void QuittingApplication()
+    {
+        if(Application.isEditor)
+            EditorApplication.isPlaying = false;
+        else
+            Application.Quit();
+    }
+
 }
 
