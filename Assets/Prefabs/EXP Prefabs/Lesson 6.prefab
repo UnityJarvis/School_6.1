@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 934326642339693117}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: PARTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 934326643149925567}
   - component: {fileID: 934326643149925537}
   - component: {fileID: 934326643149925538}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -126,7 +126,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 16384
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 934326643218362740}
   - component: {fileID: 934326643218362739}
   - component: {fileID: 934326643218362738}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Mat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -293,7 +293,7 @@ GameObject:
   - component: {fileID: 934326643358984243}
   - component: {fileID: 934326643358984244}
   - component: {fileID: 934326643358984245}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Collider
   m_TagString: Detecter
   m_Icon: {fileID: 0}
@@ -353,13 +353,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 934326643511705777}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Lesson 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &934326643511705777
 Transform:
   m_ObjectHideFlags: 0
@@ -368,7 +368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 934326643511705776}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.058, y: 0.8, z: -2.938}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -389,7 +389,7 @@ GameObject:
   - component: {fileID: 934326644147209407}
   - component: {fileID: 934326644147209378}
   - component: {fileID: 934326644147209377}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 934326644216770505}
   - component: {fileID: 934326644216770506}
   - component: {fileID: 934326644216770507}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Magnifying Glass
   m_TagString: Detecter
   m_Icon: {fileID: 0}
@@ -606,7 +606,7 @@ GameObject:
   - component: {fileID: 3680714765704130346}
   - component: {fileID: 3680714765704130344}
   - component: {fileID: 3680714765704130347}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 3680714765839866589}
   - component: {fileID: 3680714765839866579}
   - component: {fileID: 3680714765839866578}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -772,7 +772,7 @@ GameObject:
   - component: {fileID: 3680714766059840510}
   - component: {fileID: 3680714766059840508}
   - component: {fileID: 3680714766059840511}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 3680714766200618589}
   - component: {fileID: 3680714766200618579}
   - component: {fileID: 3680714766200618578}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -938,7 +938,7 @@ GameObject:
   - component: {fileID: 3680714766227366860}
   - component: {fileID: 3680714766227366850}
   - component: {fileID: 3680714766227366861}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:pasted__polySurface1__L3_flashlight_rig:group1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1021,7 +1021,7 @@ GameObject:
   - component: {fileID: 3680714766337710909}
   - component: {fileID: 3680714766337710899}
   - component: {fileID: 3680714766337710898}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1104,7 +1104,7 @@ GameObject:
   - component: {fileID: 3680714766338242159}
   - component: {fileID: 3680714766338242157}
   - component: {fileID: 3680714766338242156}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:flashlight_03_adjuster_geo2__L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1187,7 +1187,7 @@ GameObject:
   - component: {fileID: 3680714766543708012}
   - component: {fileID: 3680714766543708002}
   - component: {fileID: 3680714766543708013}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 3680714766914402503}
   - component: {fileID: 3680714766914402501}
   - component: {fileID: 3680714766914402500}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   - component: {fileID: 3680714767042055666}
   - component: {fileID: 3680714767042055664}
   - component: {fileID: 3680714767042055667}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1436,7 +1436,7 @@ GameObject:
   - component: {fileID: 3680714767231722581}
   - component: {fileID: 3680714767231722571}
   - component: {fileID: 3680714767231722570}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: _L3_flashlight_rig:group2__L3_flashlight_rig:flashlight_grp__L3_flashlight_rig:flashlight_rig_grp__L3_flashlight_rig:flashlight_03_adjuster_geo7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1519,7 +1519,8 @@ GameObject:
   - component: {fileID: 4325747766316769923}
   - component: {fileID: 839920479854603558}
   - component: {fileID: 3189402238697069036}
-  m_Layer: 0
+  - component: {fileID: 584113221}
+  m_Layer: 14
   m_Name: Magnifying glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1594,6 +1595,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &584113221
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3982294777133561913}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -158362648072846603, guid: ba06d65502b52fd47a73c52db6a8a64b, type: 3}
 --- !u!1 &4469469751888527053
 GameObject:
   m_ObjectHideFlags: 0
@@ -1606,7 +1621,7 @@ GameObject:
   - component: {fileID: 4469469751888527055}
   - component: {fileID: 4469469751888527054}
   - component: {fileID: 4469469751888527088}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1657,8 +1672,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.44, y: 2.07, z: 2.33}
-  m_Center: {x: -1.48, y: -0.24, z: 0}
+  m_Size: {x: 12.03, y: 2.07, z: 2.33}
+  m_Center: {x: -0.3, y: -0.24, z: 0}
 --- !u!114 &4469469751888527088
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,5 +1,5 @@
-using InuCom.SchoolVR.physics.LightAndMatter.lesson_3;
 using UnityEngine;
+using InuCom.SchoolVR.physics.LightAndMatter.lesson_3;
 
 public class Lesson3 : MonoBehaviour
 {
@@ -9,6 +9,7 @@ public class Lesson3 : MonoBehaviour
     private void Start()
     {
         torchLineRenderer = GetComponentInChildren<LineRenderer>();
+        torchLineRenderer.enabled = true;
         if (torchLineRenderer != null )
         {
             torchLineRenderer.SetPosition(0, p1.position);

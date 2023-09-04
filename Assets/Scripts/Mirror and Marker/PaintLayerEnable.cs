@@ -10,11 +10,11 @@ namespace InuCom.SchoolVR.physics.LightAndMatter.lesson_4
             if(other.name == "Silver")
             {
                 i++;
-                if (i >= 2)
+                if (i >= 10)
                 {
                     paintLineRendererRoot = GameObject.FindGameObjectWithTag("PaintBrushLineRendererRoot");
                     if (paintLineRendererRoot != null )
-                        ActivatePaintLayer(GameManager.instance.paint, paintLineRendererRoot);
+                        ActivatePaintLayer(Lesson4.instance.paintGameobject, paintLineRendererRoot);
                 }
             }
         }
@@ -22,7 +22,7 @@ namespace InuCom.SchoolVR.physics.LightAndMatter.lesson_4
         internal static void ActivatePaintLayer(GameObject paint,GameObject paintLineRendererRoot)
         {
             paint.SetActive(true);
-            GameManager.instance.silverGrabbable.enabled = true;
+            Lesson4.instance.silverGrabbale.enabled = true;
             paintLineRendererRoot.SetActive(false);
         }
     }

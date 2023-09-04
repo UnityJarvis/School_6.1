@@ -83,7 +83,7 @@ public class UIMan : MonoBehaviour
         foreach (GameObject panel in allPanels) { panel.SetActive(false); }
         allPanels[2].SetActive(true);
         foreach (ContentSizeFitter ctx in videoPlayerContextPanel) { ctx.gameObject.SetActive(false); }
-        Debug.Log(videoPlayerContextPanel[contextIndex - 1].gameObject);
+        //Debug.Log(videoPlayerContextPanel[contextIndex - 1].gameObject);
         videoPlayerContextPanel[contextIndex - 1].gameObject.SetActive(true);
         LeftButtonsScrollView.content = contextRectTransform[contextIndex ];
     }
