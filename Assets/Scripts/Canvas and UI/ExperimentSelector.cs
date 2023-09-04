@@ -21,24 +21,35 @@ namespace InuCom.SchoolVR.physics
                 expeiments[1].SetActive(false);
                 expeiments[2].SetActive(false);
                 expeiments[3].SetActive(false);
+                expeiments[4].SetActive(false);
                 break;
                 case 1:
                 expeiments[0].SetActive(false);
                 expeiments[1].SetActive(true);
                 expeiments[2].SetActive(false);
                 expeiments[3].SetActive(false);
+                expeiments[4].SetActive(false);
                 break;
                 case 2:
                 expeiments[0].SetActive(false);
                 expeiments[1].SetActive(false);
                 expeiments[2].SetActive(true);
                 expeiments[3].SetActive(false);
+                expeiments[4].SetActive(false);
                 break;
                 case 3:
                 expeiments[0].SetActive(false);
                 expeiments[1].SetActive(false);
                 expeiments[2].SetActive(false);
                 expeiments[3].SetActive(true);
+                expeiments[4].SetActive(false);
+                break;
+                case 4:
+                expeiments[0].SetActive(false);
+                expeiments[1].SetActive(false);
+                expeiments[2].SetActive(false);
+                expeiments[3].SetActive(false);
+                expeiments[4].SetActive(true);
                 break;
 
                 default:
