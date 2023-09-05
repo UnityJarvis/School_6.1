@@ -1,5 +1,6 @@
 
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -27,6 +28,10 @@ public class GameManager : MonoBehaviour
     public void DisplayFPS()
     {
         fpsText.text = fps.ToString("000");
+    }
+    public void LoadSceneByIndexNumber(int index)
+    {
+        SceneManager.LoadScene(index);
     }
 
     public void QuittingApplication()
