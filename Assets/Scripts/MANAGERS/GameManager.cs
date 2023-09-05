@@ -1,4 +1,4 @@
-
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -18,7 +18,8 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         fps = FrameRateCalculator();
-        //DisplayFPS();
+        DisplayFPS();        
+        FpsShowingStatus(BNG.InputBridge.Instance.AButton);
     }
 
     public float FrameRateCalculator()
@@ -41,6 +42,18 @@ public class GameManager : MonoBehaviour
         // else
             Application.Quit();
     }
+
+
+
+    #region DEBUGGING
+    void FpsShowingStatus( bool status)
+    {
+        if(status)
+            fpsText.enabled = true;
+        else
+            fpsText.enabled = false;
+    }
+    #endregion
 
 }
 
