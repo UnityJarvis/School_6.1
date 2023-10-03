@@ -29,5 +29,16 @@ namespace Inucom.SchoolVR.UI
                 toggleText.text = "Hand Tablet";
             }
         }
+        internal static void ToggleImages(Image imageComponent, Sprite smapToBig, Sprite bigToSmall, bool screenBoolValue)
+        {
+            if(screenBoolValue)
+            {
+                imageComponent.sprite = bigToSmall;
+            }
+            if(!screenBoolValue)
+            {
+                imageComponent.sprite = smapToBig;
+            }
+        }
     }
 }

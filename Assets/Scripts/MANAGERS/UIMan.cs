@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine.Video;
 using InuCom.SchoolVR.UI.Videos;
 using Inucom.SchoolVR.UI;
-using Unity.VisualScripting;
 using InuCom.SchoolVR.physics;
 
 public class UIMan : MonoBehaviour
@@ -28,7 +27,10 @@ public class UIMan : MonoBehaviour
     [Space(5)]
     [Header("Board Position Toggle")]
     public Button toggleBtn;
+    public Image ToggleImageComponent;
+    public Sprite smallToBig,bigToSmall;
     Text toggleBtnText;
+    [Space(20)]
     public Vector3 boardInitPos;
     public Vector3 bigBoardScale;
     public Vector3 smallBoardScale;
@@ -69,6 +71,7 @@ public class UIMan : MonoBehaviour
     {
         screenBoolPos = CanvasSwitcher.togglerer;
         CanvasSwitcher.ScreenTransition(boardInitPos, bigBoardScale, smallBoardScale, leftHandPos, worldCanvasHolderPos, canvasUIParent, screenBoolPos,toggleBtnText);
+        CanvasSwitcher.ToggleImages(ToggleImageComponent,smallToBig,bigToSmall,screenBoolPos);
     }
     void StartPanelButtonFunction(string buttonName)
     {
