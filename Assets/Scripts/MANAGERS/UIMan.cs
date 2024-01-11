@@ -50,7 +50,7 @@ public class UIMan : MonoBehaviour
         foreach (Button btn in startPanelButtons) { btn.onClick.AddListener(() => StartPanelButtonFunction(btn.name)); }
 
         allPanels[1].GetComponentsInChildren(experimentPanelButtons);
-        experimentPanelButtons.RemoveAt(experimentPanelButtons.Count - 1);
+        experimentPanelButtons.RemoveAt(0);
         foreach (Button btn in experimentPanelButtons) { btn.onClick.AddListener(() => ExperimentPanelButtonFunction(int.Parse(btn.name))); }
 
         viewport.GetComponentsInChildren(contextRectTransform);

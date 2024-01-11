@@ -7,16 +7,19 @@ public class AudioManager : MonoBehaviour
     public Button boardSwitchButton;
     public AudioClipsHolder audioClipsHolder;
     public AudioSource audioSource;
+    public ControllerInteractionHaptics csh;
 
-    [Space(10)]
-    public Button[] experimentBtn;
+    public Button[] allHierarchyButtons;
 
     private void Start()
     {
+        allHierarchyButtons = FindObjectsOfType<Button>(true);
         boardSwitchButton.onClick.AddListener(() => UiSounds.ClickSound(audioSource, audioClipsHolder.audioClips[0]));
-        foreach (var item in experimentBtn)
+
+        foreach (var btn in allHierarchyButtons)
         {
-            item.onClick.AddListener(() => UiSounds.ClickSound(audioSource, audioClipsHolder.audioClips[1]));
+            btn.onClick.AddListener(() => UiSounds.ClickSound(audioSource, audioClipsHolder.audioClips[0]));
+            btn.onClick.AddListener(() => csh.PerformHaptics(BNG.ControllerHand.Right));
         }
     }
 }

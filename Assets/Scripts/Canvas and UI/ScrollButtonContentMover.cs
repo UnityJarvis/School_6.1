@@ -1,10 +1,8 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ScrollButtonContentMover : MonoBehaviour
 {
     public RectTransform buttonHolder;
-    public Button left,right;
     Vector3 originalTransform;
     [Range (-100,100)]
     public float xValue = 0;

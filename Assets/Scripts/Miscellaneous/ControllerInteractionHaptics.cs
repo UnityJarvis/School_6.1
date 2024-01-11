@@ -8,7 +8,7 @@ public class ControllerInteractionHaptics : MonoBehaviour
     public float VibrateAmplitude = 0.1f;
     public float VibrateDuration = 0.1f;
 
-    void PerformHaptics(ControllerHand touchingHand)
+    public void PerformHaptics(ControllerHand touchingHand)
     {
         if (input)
         {
@@ -16,11 +16,11 @@ public class ControllerInteractionHaptics : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-        if(input.RightTrigger>0)
-        {
-            PerformHaptics(ControllerHand.Right);
-        }
-    }
+    //private void Update()
+    //{
+    //    if(input.RightTrigger>0)
+    //    {
+    //        PerformHaptics(ControllerHand.Right);
+    //    }
+    //}
 }
