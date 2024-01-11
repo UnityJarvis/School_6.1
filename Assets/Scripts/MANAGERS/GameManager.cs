@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
     [Header("Debugging")]
     public float fps;
-    public Text fpsText;
+    public TMPro.TMP_Text fpsText;
     
     public static GameManager instance;
     private void Awake()
