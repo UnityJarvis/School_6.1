@@ -4078,11 +4078,8 @@ MonoBehaviour:
   boardSwitchButton: {fileID: 3379409418625007685}
   audioClipsHolder: {fileID: 11400000, guid: 7f4c6e0e14a78d9488517adc463fea15, type: 2}
   audioSource: {fileID: 2615624000172133802}
-  experimentBtn:
-  - {fileID: 8092384454133406161}
-  - {fileID: 8092384454621370590}
-  - {fileID: 8092384455023137979}
-  - {fileID: 8092384454776296601}
+  csh: {fileID: 0}
+  allHierarchyButtons: []
 --- !u!1 &2615624000190219778
 GameObject:
   m_ObjectHideFlags: 0
@@ -14350,7 +14347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fps: 0
-  fpsText: {fileID: 3379409420194459726}
+  fpsText: {fileID: 0}
 --- !u!1 &2615624001681855845
 GameObject:
   m_ObjectHideFlags: 0
@@ -29294,18 +29291,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2615624000573031428}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8092384454133406161 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6053256687398657493, guid: 5a62f9c609e4c4946960e7af7a13bcd5,
-    type: 3}
-  m_PrefabInstance: {fileID: 2615624000573031428}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2615624000595841978
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30127,18 +30112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &3379409420194459726 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 768570575319943827, guid: 5fa07aa07b5b7334e99a809d7962b284,
-    type: 3}
-  m_PrefabInstance: {fileID: 2615624001301510877}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2615624001731135854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30489,18 +30462,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2615624001731135854}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8092384455023137979 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6053256687398657493, guid: 5a62f9c609e4c4946960e7af7a13bcd5,
-    type: 3}
-  m_PrefabInstance: {fileID: 2615624001731135854}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2615624001764637911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32000,18 +31961,6 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2615624002088077644}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8092384454776296601 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6053256687398657493, guid: 5a62f9c609e4c4946960e7af7a13bcd5,
-    type: 3}
-  m_PrefabInstance: {fileID: 2615624002088077644}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2615624002135000331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -32351,18 +32300,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a62f9c609e4c4946960e7af7a13bcd5, type: 3}
---- !u!114 &8092384454621370590 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6053256687398657493, guid: 5a62f9c609e4c4946960e7af7a13bcd5,
-    type: 3}
-  m_PrefabInstance: {fileID: 2615624002135000331}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &8092384454621370591 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6053256687398657492, guid: 5a62f9c609e4c4946960e7af7a13bcd5,

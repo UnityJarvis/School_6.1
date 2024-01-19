@@ -2779,7 +2779,7 @@ PrefabInstance:
     - target: {fileID: 2982713837398536785, guid: 2b42769f8836bcc44b51a70eb5f186ed,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2982713837398536785, guid: 2b42769f8836bcc44b51a70eb5f186ed,
         type: 3}
@@ -2789,7 +2789,7 @@ PrefabInstance:
     - target: {fileID: 2982713837398536785, guid: 2b42769f8836bcc44b51a70eb5f186ed,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2982713837398536785, guid: 2b42769f8836bcc44b51a70eb5f186ed,
         type: 3}
@@ -3721,7 +3721,7 @@ PrefabInstance:
     - target: {fileID: 1156128443874384453, guid: 9cf32dfcb27cd524893b918711ed69e5,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7903713
+      value: 0.79037136
       objectReference: {fileID: 0}
     - target: {fileID: 1156128443874384453, guid: 9cf32dfcb27cd524893b918711ed69e5,
         type: 3}
@@ -3731,7 +3731,7 @@ PrefabInstance:
     - target: {fileID: 1156128443874384453, guid: 9cf32dfcb27cd524893b918711ed69e5,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.54388356
+      value: -0.5438836
       objectReference: {fileID: 0}
     - target: {fileID: 1156128443874384453, guid: 9cf32dfcb27cd524893b918711ed69e5,
         type: 3}
@@ -4339,7 +4339,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 955824927}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6653,7 +6653,8 @@ MonoBehaviour:
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
+  m_fontSharedMaterials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
@@ -8599,7 +8600,8 @@ PrefabInstance:
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1466665017}
+      objectReference: {fileID: 3553323063855415901, guid: f945b2095dd7f0c4982a16d44a40d4ab,
+        type: 3}
     - target: {fileID: 2349828926479967426, guid: 714482fb91bba3c4bbfd11703f023375,
         type: 3}
       propertyPath: onButtonDown.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -11645,17 +11647,17 @@ PrefabInstance:
     - target: {fileID: 2840661652085934342, guid: f2686080e9d3b474c98c756ce76fae89,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2840661652085934342, guid: f2686080e9d3b474c98c756ce76fae89,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2840661652085934342, guid: f2686080e9d3b474c98c756ce76fae89,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2840661652085934342, guid: f2686080e9d3b474c98c756ce76fae89,
         type: 3}

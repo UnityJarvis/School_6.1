@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/6 1 Classroom (New)/6.1 Classroom  Updated.unity
-    guid: 401ededb6dd2859458c8844d976d3fe8
+    path: Assets/Scenes/Scifi School.unity
+    guid: 17781518c15423545a0fedf585a3ed16
   - enabled: 1
     path: Assets/Scenes/6 1 Classroom (New)/Inside Room Slider.unity
     guid: 9789bfae9c209a9499c433657b1f6d83
