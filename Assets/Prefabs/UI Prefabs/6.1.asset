@@ -15,14 +15,6 @@ MonoBehaviour:
   buttonPrefab: {fileID: 631897065895078834, guid: 363ff0c9beb5d104cbf8184f898a5199,
     type: 3}
   videoList:
-  - {fileID: 32900000, guid: 65c5d0fad33868d4b94a0073aa530edb, type: 3}
-  - {fileID: 32900000, guid: 326c6b5c0f4051a419f26e49153c7adf, type: 3}
-  - {fileID: 32900000, guid: 49fe35e81a8beb74c8b206be514d0a06, type: 3}
-  - {fileID: 32900000, guid: 84c62cef8e2b8aa45b1953f014b31d85, type: 3}
-  - {fileID: 32900000, guid: f1ad0e4d67b289543a034a6fa8570523, type: 3}
-  - {fileID: 32900000, guid: 8e001f508d05daa4a9eed20a6eb082dd, type: 3}
-  - {fileID: 32900000, guid: a5534c366d6d6af4c863919e4c643256, type: 3}
-  - {fileID: 32900000, guid: bb91a74acc15e074291c312e356c8a85, type: 3}
-  - {fileID: 32900000, guid: 2851861f8a68b4f4d80668c43dc698fa, type: 3}
-  - {fileID: 32900000, guid: 1c30ae57b24e4d44bbcdec6af6f45e60, type: 3}
-  - {fileID: 32900000, guid: 83b8bdfada3b489449cc9c2ba44b74bc, type: 3}
+  - {fileID: 32900000, guid: 26b68b83072143943ac3e2b028e3bbc1, type: 3}
+  - {fileID: 32900000, guid: c634472e0cfb6bf45a69f66635093a00, type: 3}
+  - {fileID: 32900000, guid: 79489eb71c15e364da8c9bd7a128d00b, type: 3}

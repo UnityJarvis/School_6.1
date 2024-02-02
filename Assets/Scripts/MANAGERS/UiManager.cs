@@ -21,6 +21,7 @@ public class UiManager : MonoBehaviour
     public Vector3 smallBoardScale;
     public Transform leftHandPos, worldCanvasHolderPos, canvasUIParent;
     bool screenBoolPos;
+    public VideoPlayerAudio vpa;
 
 
 
@@ -39,7 +40,7 @@ public class UiManager : MonoBehaviour
         boardButton.onClick.AddListener(CanvasSwitcher.ScreenPosToggle);
         for(int i = 0; i < contextt.Length; i++)
         {
-            VideoPanelButtonsInstantiator.InstantiateButton(videoLessons[i], contextt[i],videoPlayer); // Instantiating video buttons
+            //VideoPanelButtonsInstantiator.InstantiateButton(videoLessons[i], contextt[i],videoPlayer,vpa); // Instantiating video buttons
         }
     }
     private void Update()

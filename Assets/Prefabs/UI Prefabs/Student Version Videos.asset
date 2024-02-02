@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30146d2364d5c924fa2af52861404361, type: 3}
+  m_Name: Student Version Videos
+  m_EditorClassIdentifier: 
+  buttonPrefab: {fileID: 631897065895078834, guid: 363ff0c9beb5d104cbf8184f898a5199,
+    type: 3}
+  videoList:
+  - {fileID: 32900000, guid: 238fad796efa90f4ab4d897157c9ab18, type: 3}
+  - {fileID: 32900000, guid: dde69d983d0e8724d966953646b1f00f, type: 3}
+  - {fileID: 32900000, guid: 5e59d6b96c6ef6c4e92784995438183d, type: 3}
+  - {fileID: 32900000, guid: 9423aa684ee1c834785bd5e5fadab4df, type: 3}

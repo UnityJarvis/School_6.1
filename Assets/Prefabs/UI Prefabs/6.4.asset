@@ -15,10 +15,5 @@ MonoBehaviour:
   buttonPrefab: {fileID: 631897065895078834, guid: 363ff0c9beb5d104cbf8184f898a5199,
     type: 3}
   videoList:
-  - {fileID: 32900000, guid: 97b0d46fde7d4bd46bfa95ea93e1710a, type: 3}
-  - {fileID: 32900000, guid: 78dfd1cc7f6484b4fa2c16dbf1195fe5, type: 3}
-  - {fileID: 32900000, guid: 79161ea6850655349b4a67f54a8e19bd, type: 3}
-  - {fileID: 32900000, guid: 8ba3ae31df8225940bd59e8171a957ed, type: 3}
-  - {fileID: 32900000, guid: 1367ff5356c1140409e1c44ce233e7c9, type: 3}
-  - {fileID: 32900000, guid: ff87e9e4efa4585408d517a92ad3a4fa, type: 3}
-  - {fileID: 32900000, guid: a82e3fd340b87cb43ac69bbb215936cd, type: 3}
+  - {fileID: 32900000, guid: 87e78bad9f0181b48999a627dcfc0c4a, type: 3}
+  - {fileID: 32900000, guid: bfbf9ff4320348143a6a4d6c6ad62416, type: 3}

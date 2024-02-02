@@ -4,7 +4,7 @@ namespace InuCom.SchoolVR.physics.LightAndMatter.lesson_4
     public class PaintLayerEnable : MonoBehaviour
     {
         int i = 0;
-        GameObject paintLineRendererRoot;
+        public GameObject paintLineRendererRoot;
         private void OnTriggerExit(Collider other)
         {
             if(other.name == "Silver")

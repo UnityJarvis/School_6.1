@@ -38,8 +38,8 @@ public class InsideRoomBTNToggle : MonoBehaviour
             roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, 0f);
         }
     }
-    public void Deport(int sceneIndex)
+    public void Deport(string sceneName)
     {
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 }

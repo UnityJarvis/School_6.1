@@ -16,6 +16,7 @@ public class UIMan : MonoBehaviour
 
     [Space(10)]
     [Header("VideoPanel")]
+    public VideoPlayerAudio vpa;
     public RectTransform viewport;
     public List<ContentSizeFitter> videoPlayerContextPanel;
     public VideoPlayer videoPlayerComponent;
@@ -56,8 +57,9 @@ public class UIMan : MonoBehaviour
         viewport.GetComponentsInChildren(contextRectTransform);
 
         viewport.GetComponentsInChildren(videoPlayerContextPanel);
+        VideoPlayerSeekBar vpb = videoPlayerComponent.GetComponent<VideoPlayerSeekBar>();
 
-        for (int i = 0; i < videoPlayerContextPanel.Count; i++) { VideoPanelButtonsInstantiator.InstantiateButton(VideoLessonsArray[i], videoPlayerContextPanel[i].transform, videoPlayerComponent); }
+        for (int i = 0; i < videoPlayerContextPanel.Count; i++) { VideoPanelButtonsInstantiator.InstantiateButton(VideoLessonsArray[i], videoPlayerContextPanel[i].transform, videoPlayerComponent,vpa,vpb); }
 
         //---------Disable All panels and Enable only Start Panel--------------------
         foreach (GameObject panel in allPanels) { panel.SetActive(false); }

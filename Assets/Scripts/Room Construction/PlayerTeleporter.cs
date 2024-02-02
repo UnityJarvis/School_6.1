@@ -5,9 +5,9 @@ namespace InuCom.SchoolVR.physics.LightAndMatter.lesson_2
 {
     public class PlayerTeleporter : MonoBehaviour
     {
-        internal static void RoomSceneLoader(int sceneIndex)
+        internal static void RoomSceneLoader(string sceneName)
         {
-            SceneManager.LoadScene(sceneIndex);
+            SceneManager.LoadSceneAsync(sceneName);
         }
     }
 }

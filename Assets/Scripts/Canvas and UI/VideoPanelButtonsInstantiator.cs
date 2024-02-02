@@ -7,7 +7,7 @@ namespace InuCom.SchoolVR.UI.Videos
     internal class VideoPanelButtonsInstantiator : MonoBehaviour
     {
         int index { get; set; }
-        internal static void InstantiateButton(VideoLessons videoScriptableObj, Transform scrollView_Context, VideoPlayer videoPlayer)
+        internal static void InstantiateButton(VideoLessons videoScriptableObj, Transform scrollView_Context, VideoPlayer videoPlayer,VideoPlayerAudio vp,VideoPlayerSeekBar vpb)
         {
             for (int i = 0; i < videoScriptableObj.videoList.Count; i++)
             {
@@ -15,17 +15,21 @@ namespace InuCom.SchoolVR.UI.Videos
                 Text text = videobutton.GetComponentInChildren<Text>();
                 //text.text = videoScriptableObj.videoList[i].clip.name;
                 text.text = (i+1).ToString() + " - " + videoScriptableObj.videoList[i].name;
-                videobutton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer,text.text); });
+                videobutton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer,text.text,vp,vpb); });
+                
             }
         }
 
-        internal static void OnButtonPress(VideoLessons videoScriptableObj, VideoPlayer videoPlayer ,string videoName)
+        internal static void OnButtonPress(VideoLessons videoScriptableObj, VideoPlayer videoPlayer ,string videoName,VideoPlayerAudio vp,VideoPlayerSeekBar vpb)
         {
             //Debug.Log(videoName.Substring(0,videoName.IndexOf("-")).Replace(" ", ""));
             //string s = videoName.Substring(0, videoName.IndexOf("-")).Replace(" ", "");
             int x = int.Parse(videoName.Substring(0, videoName.IndexOf("-")).Replace(" ", ""));
             videoPlayer.clip = videoScriptableObj.videoList[x-1];
             //videoPlayer.clip = videoScriptableObj.videoList[i];
+
+            vp.PlayVideo();
+            vpb.ChangeMaxSliderValue(videoPlayer);
         }
     }
 }

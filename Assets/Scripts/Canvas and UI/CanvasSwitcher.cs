@@ -18,7 +18,7 @@ namespace Inucom.SchoolVR.UI
                 CanvasUI.transform.position = Vector3.MoveTowards(CanvasUI.transform.position, boardInitPos, 0.5f);
                 CanvasUI.transform.rotation = Quaternion.Euler(0, 180, 0);
                 CanvasUI.transform.localScale = bigBoardScale;
-                toggleText.text = "Large Screen";
+                toggleText.text = "Hand Tablet";
             }
             if (!screenBoolValue)
             {
@@ -26,7 +26,7 @@ namespace Inucom.SchoolVR.UI
                 CanvasUI.transform.position = Vector3.MoveTowards(CanvasUI.transform.position, leftHandModelPos.transform.position, 0.5f);
                 CanvasUI.transform.rotation = leftHandModelPos.transform.rotation;
                 CanvasUI.transform.localScale = smallBoardScale;
-                toggleText.text = "Hand Tablet";
+                toggleText.text = "Large Screen";
             }
         }
         internal static void ToggleImages(Image imageComponent, Sprite smapToBig, Sprite bigToSmall, bool screenBoolValue)
