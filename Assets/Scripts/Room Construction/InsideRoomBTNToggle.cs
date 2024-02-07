@@ -4,41 +4,72 @@ using UnityEngine.SceneManagement;
 public class InsideRoomBTNToggle : MonoBehaviour
 {
     public Material roomMirrorMaterial;
-    public Light propsLight, playerLight;
-    bool propsLightStatus = true, playerLightStatus = true;
+    public Light propsLight;
+    public Light playerLight;
+
+    private bool propsLightEnabled = true;
+    private bool playerLightEnabled = true;
+
+    /// <summary>
+    /// Initializes the lights to be enabled when the scene starts.
+    /// </summary>
     private void Start()
     {
-        propsLight.enabled = true;
-        playerLight.enabled = true;
+        propsLight.enabled = propsLightEnabled;
+        playerLight.enabled = playerLightEnabled;
     }
-    public void PlayerLightToggle()
-    {
-        playerLightStatus = !playerLightStatus;
 
-        playerLight.enabled = playerLightStatus;
-    }
-    public void PropsLightToggle()
+    /// <summary>
+    /// Toggles the player light on and off.
+    /// </summary>
+    public void TogglePlayerLight()
     {
-        propsLightStatus = !propsLightStatus;
-
-        propsLight.enabled = propsLightStatus;
+        playerLightEnabled = !playerLightEnabled;
+        playerLight.enabled = playerLightEnabled;
     }
+
+    /// <summary>
+    /// Toggles the props light on and off.
+    /// </summary>
+    public void TogglePropsLight()
+    {
+        propsLightEnabled = !propsLightEnabled;
+        propsLight.enabled = propsLightEnabled;
+
+        UpdateRoomMirrorMaterial();
+    }
+
+    /// <summary>
+    /// Sets the initial alpha value of the room mirror material.
+    /// </summary>
     private void Awake()
     {
-        roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, 0f);
+        SetRoomMirrorMaterialAlpha(0f);
     }
-    private void Update()
+
+    /// <summary>
+    /// Updates the room mirror material alpha based on the status of the props light.
+    /// </summary>
+    private void UpdateRoomMirrorMaterial()
     {
-        if(propsLightStatus == false)
-        {
-            roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, 1f);
-        }
-        if(propsLightStatus == true)
-        {
-            roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, 0f);
-        }
+        float alpha = propsLightEnabled ? 0f : 1f;
+        SetRoomMirrorMaterialAlpha(alpha);
     }
-    public void Deport(string sceneName)
+
+    /// <summary>
+    /// Sets the alpha value of the room mirror material.
+    /// </summary>
+    /// <param name="alpha">The alpha value to set.</param>
+    private void SetRoomMirrorMaterialAlpha(float alpha)
+    {
+        roomMirrorMaterial.color = new Color(roomMirrorMaterial.color.r, roomMirrorMaterial.color.g, roomMirrorMaterial.color.b, alpha);
+    }
+
+    /// <summary>
+    /// Loads the specified scene.
+    /// </summary>
+    /// <param name="sceneName">The name of the scene to load.</param>
+    public void LoadScene(string sceneName)
     {
         SceneManager.LoadSceneAsync(sceneName);
     }

@@ -1,58 +1,55 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
+/// <summary>
+/// Manages the overall game functionality, including debugging information and scene management.
+/// </summary>
 public class GameManager : MonoBehaviour
 {
     [Header("Debugging")]
     public float fps;
     public TMPro.TMP_Text fpsText;
-    
-    public static GameManager instance;
+
+    public static GameManager Instance { get; private set; }
+
     private void Awake()
     {
-        instance = this;
+        Instance = this;
     }
 
     private void Update()
     {
-        fps = FrameRateCalculator();
-        DisplayFPS();        
-        FpsShowingStatus(BNG.InputBridge.Instance.AButton);
+        UpdateFPS();
     }
 
-    public float FrameRateCalculator()
+    private void UpdateFPS()
     {
-        return 1/Time.unscaledDeltaTime;
+        fps = 1 / Time.unscaledDeltaTime;
+        DisplayFPS();
+        ToggleFPSVisibility(BNG.InputBridge.Instance.AButton);
     }
-    public void DisplayFPS()
+
+    private void DisplayFPS()
     {
         fpsText.text = fps.ToString("000");
     }
+
     public void LoadSceneByIndexNumber(int index)
     {
         SceneManager.LoadScene(index);
     }
 
-    public void QuittingApplication()
+    public void QuitApplication()
     {
-        // if(Application.isEditor)
-        //     EditorApplication.isPlaying = false;
-        // else
-            Application.Quit();
+        Application.Quit();
     }
-
-
 
     #region DEBUGGING
-    void FpsShowingStatus( bool status)
+
+    private void ToggleFPSVisibility(bool status)
     {
-        if(status)
-            fpsText.enabled = true;
-        else
-            fpsText.enabled = false;
+        fpsText.enabled = status;
     }
+
     #endregion
-
 }
-

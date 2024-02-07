@@ -1,18 +1,23 @@
 using UnityEngine;
 
-namespace InuCom.SchoolVR.physics
+namespace InuCom.SchoolVR.physics.LightAndMatter
 {
-    namespace LightAndMatter.lesson_3
+    /// <summary>
+    /// Utility class for managing the torch line renderer.
+    /// </summary>
+    public class TorchLineRenderer
     {
-        public class TorchLineRenderer
+        /// <summary>
+        /// Sets up the torch line renderer based on two specified points.
+        /// </summary>
+        /// <param name="lineRendererComponent">The LineRenderer component to configure.</param>
+        /// <param name="startPoint">The starting point of the torch line.</param>
+        /// <param name="endPoint">The ending point of the torch line.</param>
+        internal static void SetupTorchLine(LineRenderer lineRendererComponent, Transform startPoint, Transform endPoint)
         {
-            internal static void torchRenderer(LineRenderer lineRendererComponent, Transform p1, Transform p2)
-            {
-                lineRendererComponent.enabled = true;
-                lineRendererComponent.SetPosition(0, p1.position);
-                lineRendererComponent.SetPosition(1, p2.position);
-            }
+            lineRendererComponent.enabled = true;
+            lineRendererComponent.SetPosition(0, startPoint.position);
+            lineRendererComponent.SetPosition(1, endPoint.position);
         }
     }
 }
-

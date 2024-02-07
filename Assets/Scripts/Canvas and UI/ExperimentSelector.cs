@@ -1,75 +1,42 @@
-using BNG;
 using UnityEngine;
 
 namespace InuCom.SchoolVR.physics
 {
+    /// <summary>
+    /// Manages the selection and visibility of experiments in a virtual reality environment.
+    /// </summary>
     public class ExperimentSelector : MonoBehaviour
     {
-        public GameObject[] expeiments;
-        internal static int currentExp { get; set; }
+        /// <summary>
+        /// Array of experiment GameObjects.
+        /// </summary>
+        public GameObject[] experiments;
+
+        /// <summary>
+        /// Gets or sets the index of the currently selected experiment.
+        /// </summary>
+        internal static int CurrentExperimentIndex { get; set; }
+
         private void Start()
         {
-            currentExp = -1;
+            CurrentExperimentIndex = -1;
         }
 
         private void Update()
         {
-            switch(currentExp)
-            {
-                case 0:
-                expeiments[0].SetActive(true);
-                expeiments[1].SetActive(false);
-                expeiments[2].SetActive(false);
-                expeiments[3].SetActive(false);
-                expeiments[4].SetActive(false);
-                break;
-                case 1:
-                expeiments[0].SetActive(false);
-                expeiments[1].SetActive(true);
-                expeiments[2].SetActive(false);
-                expeiments[3].SetActive(false);
-                expeiments[4].SetActive(false);
-                break;
-                case 2:
-                expeiments[0].SetActive(false);
-                expeiments[1].SetActive(false);
-                expeiments[2].SetActive(true);
-                expeiments[3].SetActive(false);
-                expeiments[4].SetActive(false);
-                break;
-                case 3:
-                expeiments[0].SetActive(false);
-                expeiments[1].SetActive(false);
-                expeiments[2].SetActive(false);
-                expeiments[3].SetActive(true);
-                expeiments[4].SetActive(false);
-                break;
-                case 4:
-                expeiments[0].SetActive(false);
-                expeiments[1].SetActive(false);
-                expeiments[2].SetActive(false);
-                expeiments[3].SetActive(false);
-                expeiments[4].SetActive(true);
-                break;
+            UpdateExperimentVisibility();
+        }
 
-                default:
-                    expeiments[0].SetActive(false);
-                    expeiments[1].SetActive(false);
-                    expeiments[2].SetActive(false);
-                    expeiments[3].SetActive(false);
-                    currentExp = 0;
-                    break;
-            }
+        private void UpdateExperimentVisibility()
+        {
+            // Ensure current experiment index is within valid range
+            CurrentExperimentIndex = Mathf.Clamp(CurrentExperimentIndex, 0, experiments.Length - 1);
 
-            if(InputBridge.Instance.AButtonDown)
+            // Set visibility based on current experiment index
+            for (int i = 0; i < experiments.Length; i++)
             {
-                currentExp ++;
+                experiments[i].SetActive(i == CurrentExperimentIndex);
             }
-            if(InputBridge.Instance.BButtonDown)
-            {
-                currentExp --;
-            }
-
         }
     }
 }

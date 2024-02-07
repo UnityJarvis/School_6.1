@@ -2,9 +2,11 @@ using System.Collections;
 using UnityEngine;
 using BNG;
 
+/// <summary>
+/// PaintBrush class for drawing in VR using a brush.
+/// </summary>
 public class PaintBrush : GrabbableEvents
 {
-
     public Material DrawMaterial;
     public Color DrawColor = Color.red;
     public float LineWidth = 0.02f;
@@ -15,7 +17,7 @@ public class PaintBrush : GrabbableEvents
     public float RaycastLength = 0.01f;
 
     /// <summary>
-    /// Minimum distance required from points to place drawing down
+    /// Minimum distance required from points to place drawing down.
     /// </summary>
     public float MinDrawDistance = 0.02f;
     public float ReuseTolerance = 0.001f;
@@ -23,9 +25,9 @@ public class PaintBrush : GrabbableEvents
     [Space(10)]
     public bool usingWorldSpace;
 
-    bool IsNewDraw = false;
+    bool isNewDraw = false;
     Vector3 lastDrawPoint;
-    LineRenderer LineRenderer;
+    LineRenderer lineRenderer;
 
     // Use this to store our Marker's LineRenderers
     Transform root;
@@ -36,9 +38,10 @@ public class PaintBrush : GrabbableEvents
 
     private void Update()
     {
-        if(LineRenderer!=null)
-            LineRenderer.useWorldSpace = usingWorldSpace;
+        if (lineRenderer != null)
+            lineRenderer.useWorldSpace = usingWorldSpace;
     }
+
     public override void OnGrab(Grabber grabber)
     {
         if (drawRoutine == null)
@@ -59,6 +62,10 @@ public class PaintBrush : GrabbableEvents
         base.OnRelease();
     }
 
+    /// <summary>
+    /// Coroutine for writing routine.
+    /// </summary>
+    /// <returns>IEnumerator for the coroutine.</returns>
     IEnumerator WriteRoutine()
     {
         while (true)
@@ -66,52 +73,68 @@ public class PaintBrush : GrabbableEvents
             if (Physics.Raycast(RaycastStart.position, RaycastStart.up, out RaycastHit hit, RaycastLength, DrawingLayers, QueryTriggerInteraction.Ignore))
             {
                 float tipDistance = Vector3.Distance(hit.point, RaycastStart.transform.position);
-                float tipDercentage = tipDistance / RaycastLength;
+                float tipPercentage = tipDistance / RaycastLength;
                 Vector3 drawStart = hit.point + (-RaycastStart.up * 0.0005f);
                 Quaternion drawRotation = Quaternion.FromToRotation(Vector3.back, hit.normal);
-                float lineWidth = LineWidth * (1 - tipDercentage);
+                float lineWidth = LineWidth * (1 - tipPercentage);
                 InitDraw(drawStart, drawRotation, lineWidth, DrawColor);
             }
             else
             {
-                IsNewDraw = true;
+                isNewDraw = true;
             }
             yield return new WaitForFixedUpdate();
         }
     }
 
+    /// <summary>
+    /// Initialize the drawing based on given parameters.
+    /// </summary>
+    /// <param name="position">Starting position of the drawing.</param>
+    /// <param name="rotation">Rotation of the drawing.</param>
+    /// <param name="lineWidth">Width of the drawing line.</param>
+    /// <param name="lineColor">Color of the drawing line.</param>
     void InitDraw(Vector3 position, Quaternion rotation, float lineWidth, Color lineColor)
     {
-        if (IsNewDraw)
+        if (isNewDraw)
         {
             lastDrawPoint = position;
             DrawPoint(lastDrawPoint, position, lineWidth, lineColor, rotation);
-            IsNewDraw = false;
+            isNewDraw = false;
         }
         else
         {
-            float dist = Vector3.Distance(lastDrawPoint, position);
-            if (dist > MinDrawDistance)
+            float distance = Vector3.Distance(lastDrawPoint, position);
+            if (distance > MinDrawDistance)
             {
                 lastDrawPoint = DrawPoint(lastDrawPoint, position, lineWidth, DrawColor, rotation);
             }
         }
     }
 
+    /// <summary>
+    /// Draw a point in the drawing.
+    /// </summary>
+    /// <param name="lastDrawPoint">Last drawn point.</param>
+    /// <param name="endPosition">End position of the drawing.</param>
+    /// <param name="lineWidth">Width of the drawing line.</param>
+    /// <param name="lineColor">Color of the drawing line.</param>
+    /// <param name="rotation">Rotation of the drawing.</param>
+    /// <returns>End position of the drawing.</returns>
     Vector3 DrawPoint(Vector3 lastDrawPoint, Vector3 endPosition, float lineWidth, Color lineColor, Quaternion rotation)
     {
-        var dif = Mathf.Abs(lastLineWidth - lineWidth);
+        var difference = Mathf.Abs(lastLineWidth - lineWidth);
         lastLineWidth = lineWidth;
-        if (dif > ReuseTolerance || renderLifeTime >= 98)
+        if (difference > ReuseTolerance || renderLifeTime >= 98)
         {
-            LineRenderer = null;
+            lineRenderer = null;
             renderLifeTime = 0;
         }
         else
         {
             renderLifeTime += 1;
         }
-        if (IsNewDraw || LineRenderer == null)
+        if (isNewDraw || lineRenderer == null)
         {
             lastTransform = new GameObject().transform;
             lastTransform.name = "DrawLine";
@@ -124,41 +147,43 @@ public class PaintBrush : GrabbableEvents
             lastTransform.parent = root;
             lastTransform.position = endPosition;
             lastTransform.rotation = rotation;
-            LineRenderer = lastTransform.gameObject.AddComponent<LineRenderer>();
+            lineRenderer = lastTransform.gameObject.AddComponent<LineRenderer>();
 
-            LineRenderer.startColor = lineColor;
-            LineRenderer.endColor = lineColor;
-            LineRenderer.startWidth = lineWidth;
-            LineRenderer.endWidth = lineWidth;
+            lineRenderer.startColor = lineColor;
+            lineRenderer.endColor = lineColor;
+            lineRenderer.startWidth = lineWidth;
+            lineRenderer.endWidth = lineWidth;
             var curve = new AnimationCurve();
             curve.AddKey(0, lineWidth);
-            //curve.AddKey(1, lineWidth);
-            LineRenderer.widthCurve = curve;
+            lineRenderer.widthCurve = curve;
             if (DrawMaterial)
             {
-                LineRenderer.material = DrawMaterial;
+                lineRenderer.material = DrawMaterial;
             }
-            LineRenderer.numCapVertices = 5;
-            LineRenderer.alignment = LineAlignment.TransformZ;
-            LineRenderer.useWorldSpace = true;
-            LineRenderer.SetPosition(0, lastDrawPoint);
-            LineRenderer.SetPosition(1, endPosition);
+            lineRenderer.numCapVertices = 5;
+            lineRenderer.alignment = LineAlignment.TransformZ;
+            lineRenderer.useWorldSpace = true;
+            lineRenderer.SetPosition(0, lastDrawPoint);
+            lineRenderer.SetPosition(1, endPosition);
         }
         else
         {
-            if (LineRenderer != null)
+            if (lineRenderer != null)
             {
-                LineRenderer.widthMultiplier = 1;
-                LineRenderer.positionCount += 1;
-                var curve = LineRenderer.widthCurve;
-                curve.AddKey((LineRenderer.positionCount - 1) / 100, lineWidth);
-                LineRenderer.widthCurve = curve;
-                LineRenderer.SetPosition(LineRenderer.positionCount - 1, endPosition);
+                lineRenderer.widthMultiplier = 1;
+                lineRenderer.positionCount += 1;
+                var curve = lineRenderer.widthCurve;
+                curve.AddKey((lineRenderer.positionCount - 1) / 100, lineWidth);
+                lineRenderer.widthCurve = curve;
+                lineRenderer.SetPosition(lineRenderer.positionCount - 1, endPosition);
             }
         }
         return endPosition;
     }
 
+    /// <summary>
+    /// Gizmos for drawing selected objects.
+    /// </summary>
     void OnDrawGizmosSelected()
     {
         // Show Grip Point
@@ -166,5 +191,3 @@ public class PaintBrush : GrabbableEvents
         Gizmos.DrawLine(RaycastStart.position, RaycastStart.position + RaycastStart.up * RaycastLength);
     }
 }
-
-

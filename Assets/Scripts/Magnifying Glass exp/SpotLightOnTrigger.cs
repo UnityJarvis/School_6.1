@@ -3,43 +3,37 @@ using UnityEngine;
 
 public class SpotLightOnTrigger : MonoBehaviour
 {
-    Light spotLightt;
+    private Light spotLight;
+
+    /// <summary>
+    /// Initializes the spotlight reference during Awake.
+    /// </summary>
     private void Awake()
     {
-        spotLightt = GetComponent<Light>();
+        spotLight = GetComponent<Light>();
     }
+
+    /// <summary>
+    /// Handles the triggering when another collider enters the detection area.
+    /// </summary>
+    /// <param name="other">The collider entering the detection area.</param>
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Detecter")
+        if (other.CompareTag("Detecter"))
         {
-            //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
-            TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
+            TorchIntensityModifier.SpotLightIntensityChanger(spotLight, spotLight.spotAngle);
         }
-
     }
+
+    /// <summary>
+    /// Handles the triggering when another collider exits the detection area.
+    /// </summary>
+    /// <param name="other">The collider exiting the detection area.</param>
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Detecter")
+        if (other.CompareTag("Detecter"))
         {
-            //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
-            TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
+            TorchIntensityModifier.SpotLightIntensityChanger(spotLight, 0);
         }
     }
-    // private void OnCollisionEnter(Collision other)
-    // {
-    //     if (other.gameObject.tag == "Detecter")
-    //     {
-    //         //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
-    //         TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
-    //     }
-
-    // }
-    // private void OnCollisionExit(Collision other)
-    // {
-    //     if (other.gameObject.tag == "Detecter")
-    //     {
-    //         //TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, spotLightt.spotAngle);
-    //         TorchIntensityModifier.SpotLightIntensityChanger(spotLightt, 0);
-    //     }
-    // }
 }

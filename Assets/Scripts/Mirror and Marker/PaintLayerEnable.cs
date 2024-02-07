@@ -1,28 +1,46 @@
 using UnityEngine;
-namespace InuCom.SchoolVR.physics.LightAndMatter.lesson_4
+
+namespace InuCom.SchoolVR.physics.LightAndMatter
 {
+    /// <summary>
+    /// PaintLayerEnable class responsible for enabling the paint layer when the silver marker exits.
+    /// </summary>
     public class PaintLayerEnable : MonoBehaviour
     {
-        int i = 0;
+        private int exitCount = 0;
         public GameObject paintLineRendererRoot;
+
+        /// <summary>
+        /// Triggered when another collider exits the trigger.
+        /// </summary>
+        /// <param name="other">The other Collider involved in this collision.</param>
         private void OnTriggerExit(Collider other)
         {
-            if(other.name == "Silver")
+            if (other.name == "Silver")
             {
-                i++;
-                if (i >= 10)
+                exitCount++;
+
+                if (exitCount >= 10)
                 {
                     paintLineRendererRoot = GameObject.FindGameObjectWithTag("PaintBrushLineRendererRoot");
-                    if (paintLineRendererRoot != null )
-                        ActivatePaintLayer(Lesson4.instance.paintGameobject, paintLineRendererRoot);
+
+                    if (paintLineRendererRoot != null)
+                    {
+                        ActivatePaintLayer(MirrorConstruction.instance.paintGameobject, paintLineRendererRoot);
+                    }
                 }
             }
         }
 
-        internal static void ActivatePaintLayer(GameObject paint,GameObject paintLineRendererRoot)
+        /// <summary>
+        /// Activate the paint layer and enable the necessary components.
+        /// </summary>
+        /// <param name="paint">The paint GameObject to activate.</param>
+        /// <param name="paintLineRendererRoot">The root GameObject for the paint line renderer.</param>
+        internal static void ActivatePaintLayer(GameObject paint, GameObject paintLineRendererRoot)
         {
             paint.SetActive(true);
-            Lesson4.instance.silverGrabbale.enabled = true;
+            MirrorConstruction.instance.silverGrabbale.enabled = true;
             paintLineRendererRoot.SetActive(false);
         }
     }
