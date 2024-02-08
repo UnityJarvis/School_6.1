@@ -1,4 +1,3 @@
-using InuCom.SchoolVR.physics.MagnifyingGlass;
 using UnityEngine;
 
 public class SpotLightOnTrigger : MonoBehaviour
@@ -21,7 +20,7 @@ public class SpotLightOnTrigger : MonoBehaviour
     {
         if (other.CompareTag("Detecter"))
         {
-            TorchIntensityModifier.SpotLightIntensityChanger(spotLight, spotLight.spotAngle);
+            SpotLightIntensityChanger(spotLight, spotLight.spotAngle);
         }
     }
 
@@ -33,7 +32,11 @@ public class SpotLightOnTrigger : MonoBehaviour
     {
         if (other.CompareTag("Detecter"))
         {
-            TorchIntensityModifier.SpotLightIntensityChanger(spotLight, 0);
+            SpotLightIntensityChanger(spotLight, 0);
         }
+    }
+    void SpotLightIntensityChanger(Light torchSpotLight, float angle)
+    {
+        torchSpotLight.innerSpotAngle = angle;
     }
 }

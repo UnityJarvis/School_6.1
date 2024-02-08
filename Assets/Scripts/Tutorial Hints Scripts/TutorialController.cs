@@ -1,7 +1,6 @@
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections.Generic;
-using InuCom.SchoolVR.physics;
+using BNG;
 
 /// <summary>
 /// Controls the tutorial behavior, handling UI elements, animations, and canvas selection.
@@ -11,7 +10,7 @@ public class TutorialController : MonoBehaviour
     /// <summary>
     /// Button to toggle the tutorial.
     /// </summary>
-    public Button iButton;
+    public UnityEngine.UI.Button iButton;
 
     /// <summary>
     /// Toggle status of the iButton.
@@ -89,5 +88,32 @@ public class TutorialController : MonoBehaviour
     {
         iButtonToggleStatus = false;
         TutorialCanvasSelector(ExperimentSelector.CurrentExperimentIndex, iButtonToggleStatus);
+    }
+
+
+
+    /// <summary>
+    /// Reference to the left hand grabber.
+    /// </summary>
+    public Grabber leftHand;
+
+    /// <summary>
+    /// Reference to the right hand grabber.
+    /// </summary>
+    public Grabber rightHand;
+
+    /// <summary>
+    /// Reference to the TutorialController.
+    /// </summary>
+    public TutorialController tC;
+
+    private void Update()
+    {
+        // Check if either the left or right hand is holding a grabbable object
+        if (leftHand.HeldGrabbable != null || rightHand.HeldGrabbable != null)
+        {
+            // Close the tutorial
+            tC.BackButtonOfMainBoardCanvasForTutorialTurnOffWhileChangingExperiments();
+        }
     }
 }

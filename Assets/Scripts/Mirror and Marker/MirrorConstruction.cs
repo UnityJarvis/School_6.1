@@ -46,7 +46,19 @@ namespace InuCom.SchoolVR.physics.LightAndMatter
         private void Update()
         {
             // Check and validate mirror construction in the VR lesson.
-            MirrorConstructionValidator.MirrorValidation(snapPoint, glassGrabbale, MirrorCamRenderer);
+            MirrorValidation(snapPoint, glassGrabbale, MirrorCamRenderer);
+        }
+        private void MirrorValidation(SnapZone snapPoint, Grabbable glassGrabbale, GameObject MirrorCamRenderer)
+        {
+            // Check if an item is held in the snap zone.
+            if (snapPoint.HeldItem != null)
+            {
+                // Enable the grabbable for glass material.
+                glassGrabbale.enabled = true;
+
+                // Activate the mirror camera renderer.
+                MirrorCamRenderer.SetActive(true);
+            }
         }
     }
 }

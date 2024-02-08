@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class InsideRoomBTNToggle : MonoBehaviour
+public class DoubleSidedRoomController : MonoBehaviour
 {
     public Material roomMirrorMaterial;
     public Light propsLight;

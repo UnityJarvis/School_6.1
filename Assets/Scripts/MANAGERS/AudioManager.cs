@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.UI;
-using InuCom.SchoolVR.Audio;
 
 /// <summary>
 /// Manages audio-related functionality in the application.
@@ -41,13 +40,17 @@ public class AudioManager : MonoBehaviour
         allHierarchyButtons = FindObjectsOfType<Button>(true);
 
         // Set up click listeners for the board switch button
-        boardSwitchButton.onClick.AddListener(() => UiSounds.ClickSound(audioSource, audioClipsHolder.audioClips[0]));
+        boardSwitchButton.onClick.AddListener(() => ClickSound(audioSource, audioClipsHolder.audioClips[0]));
 
         // Set up click listeners for all buttons in the hierarchy
         foreach (var btn in allHierarchyButtons)
         {
-            btn.onClick.AddListener(() => UiSounds.ClickSound(audioSource, audioClipsHolder.audioClips[0]));
+            btn.onClick.AddListener(() => ClickSound(audioSource, audioClipsHolder.audioClips[0]));
             btn.onClick.AddListener(() => csh.PerformHaptics(BNG.ControllerHand.Right));
         }
+    }
+    internal void ClickSound(AudioSource audioSource, AudioClip audioClip)
+    {
+        audioSource.PlayOneShot(audioClip);
     }
 }

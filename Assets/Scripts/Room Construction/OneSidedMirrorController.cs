@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class InsideRoomFunctionalityController : MonoBehaviour
+public class OneSidedMirrorController : MonoBehaviour
 {
     public Material roomMirrorMaterial;
     public Slider propsLightIntensitySlider;

@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine.Video;
 using InuCom.SchoolVR.UI.Videos;
 using Inucom.SchoolVR.UI;
-using InuCom.SchoolVR.physics;
 
 /// <summary>
 /// Manages the user interface for a virtual reality educational application.
@@ -29,7 +28,6 @@ public class UIManager : MonoBehaviour
 
     [Space(10)]
     [Header("VideoPanel")]
-    public VideoPlayerAudio videoPlayerAudio;
     public RectTransform videoPanelViewport;
     public List<ContentSizeFitter> videoPlayerContextPanel;
     public VideoPlayer videoPlayerComponent;
@@ -102,7 +100,7 @@ public class UIManager : MonoBehaviour
 
         for (int i = 0; i < videoPlayerContextPanel.Count; i++)
         {
-            VideoPanelButtonsInstantiator.InstantiateButton(videoLessonsArray[i], videoPlayerContextPanel[i].transform, videoPlayerComponent, videoPlayerAudio, videoPlayerSeekBar);
+            VideoPanelButtonsInstantiator.InstantiateButton(videoLessonsArray[i], videoPlayerContextPanel[i].transform, videoPlayerComponent, videoPlayerSeekBar);
         }
     }
 

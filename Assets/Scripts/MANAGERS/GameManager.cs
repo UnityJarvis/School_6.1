@@ -6,11 +6,15 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class GameManager : MonoBehaviour
 {
-    [Header("Debugging")]
-    public float fps;
-    public TMPro.TMP_Text fpsText;
-
+    /// <summary>
+    /// Gets the singleton instance of the GameManager.
+    /// </summary>
     public static GameManager Instance { get; private set; }
+
+    [Header("Debugging")]
+    [Tooltip("Frames per second")]
+    public float framesPerSecond;
+    public TMPro.TMP_Text fpsText;
 
     private void Awake()
     {
@@ -19,26 +23,42 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
-        UpdateFPS();
+        if (fpsText != null)
+        {
+            UpdateFPS();
+        }
     }
 
+    /// <summary>
+    /// Updates the frames per second information.
+    /// </summary>
     private void UpdateFPS()
     {
-        fps = 1 / Time.unscaledDeltaTime;
+        framesPerSecond = 1 / Time.unscaledDeltaTime;
         DisplayFPS();
         ToggleFPSVisibility(BNG.InputBridge.Instance.AButton);
     }
 
+    /// <summary>
+    /// Displays the frames per second on the UI.
+    /// </summary>
     private void DisplayFPS()
     {
-        fpsText.text = fps.ToString("000");
+        fpsText.text = framesPerSecond.ToString("000");
     }
 
-    public void LoadSceneByIndexNumber(int index)
+    /// <summary>
+    /// Loads the specified level asynchronously.
+    /// </summary>
+    /// <param name="sceneName">The name of the scene to load.</param>
+    public void LoadLevelAsync(string sceneName)
     {
-        SceneManager.LoadScene(index);
+        SceneManager.LoadSceneAsync(sceneName);
     }
 
+    /// <summary>
+    /// Quits the application.
+    /// </summary>
     public void QuitApplication()
     {
         Application.Quit();
@@ -46,6 +66,10 @@ public class GameManager : MonoBehaviour
 
     #region DEBUGGING
 
+    /// <summary>
+    /// Toggles the visibility of the frames per second on the UI.
+    /// </summary>
+    /// <param name="status">The visibility status.</param>
     private void ToggleFPSVisibility(bool status)
     {
         fpsText.enabled = status;

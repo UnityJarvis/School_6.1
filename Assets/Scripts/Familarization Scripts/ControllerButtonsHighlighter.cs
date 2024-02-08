@@ -3,7 +3,7 @@ using UnityEngine;
 /// <summary>
 /// Controls the material changes on different parts of a virtual controller.
 /// </summary>
-public class ControllerFlow : MonoBehaviour
+public class ControllerButtonsHighlighter : MonoBehaviour
 {
     /// <summary>
     /// Material for the ABXY buttons.

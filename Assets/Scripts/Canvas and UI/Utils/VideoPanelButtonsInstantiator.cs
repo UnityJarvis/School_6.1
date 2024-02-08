@@ -17,14 +17,14 @@ namespace InuCom.SchoolVR.UI.Videos
         /// <param name="videoPlayer">The VideoPlayer component for playing videos.</param>
         /// <param name="vp">The VideoPlayerAudio component for audio control.</param>
         /// <param name="vpb">The VideoPlayerSeekBar component for controlling video playback progress.</param>
-        internal static void InstantiateButton(VideoLessons videoScriptableObj, Transform scrollViewContext, VideoPlayer videoPlayer, VideoPlayerAudio vp, VideoPlayerSeekBar vpb)
+        internal static void InstantiateButton(VideoLessons videoScriptableObj, Transform scrollViewContext, VideoPlayer videoPlayer, VideoPlayerSeekBar vpb)
         {
             for (int i = 0; i < videoScriptableObj.videoList.Count; i++)
             {
                 var videoButton = Instantiate(videoScriptableObj.buttonPrefab, scrollViewContext);
                 Text text = videoButton.GetComponentInChildren<Text>();
                 text.text = (i + 1).ToString() + " - " + videoScriptableObj.videoList[i].name;
-                videoButton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer, text.text, vp, vpb); });
+                videoButton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer, text.text, vpb); });
             }
         }
 
@@ -36,12 +36,16 @@ namespace InuCom.SchoolVR.UI.Videos
         /// <param name="videoName">The name of the selected video.</param>
         /// <param name="vp">The VideoPlayerAudio component for audio control.</param>
         /// <param name="vpb">The VideoPlayerSeekBar component for controlling video playback progress.</param>
-        internal static void OnButtonPress(VideoLessons videoScriptableObj, VideoPlayer videoPlayer, string videoName, VideoPlayerAudio vp, VideoPlayerSeekBar vpb)
+        internal static void OnButtonPress(VideoLessons videoScriptableObj, VideoPlayer videoPlayer, string videoName, VideoPlayerSeekBar vpb)
         {
             int videoIndex = int.Parse(videoName.Substring(0, videoName.IndexOf("-")).Replace(" ", ""));
             videoPlayer.clip = videoScriptableObj.videoList[videoIndex - 1];
-            vp.PlayVideo();
+            PlayVideo(videoPlayer);
             vpb.ChangeMaxSliderValue(videoPlayer);
+        }
+        internal static void PlayVideo(VideoPlayer videoPlayer)
+        {
+            videoPlayer.Play();
         }
     }
 }
