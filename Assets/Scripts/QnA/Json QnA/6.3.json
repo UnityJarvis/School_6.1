@@ -1,0 +1,484 @@
+[
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What do the three settings (2,000; 20,000; 100,000) represent in the context of the light meter?",
+	  "Options": {
+		"1": "Different colors of light",
+		"2": "Sensitivity of the light meter",
+		"3": "Light intensity in lumens",
+		"4": "Light temperature in Kelvin"
+	  },
+	  "CorrectAnswer": "Sensitivity of the light meter",
+	  "Hint": "Consider the specific representation mentioned in the information.",
+	  "Explanation": "The correct answer is b) Sensitivity of the light meter. The information states that these settings represent the sensitivity of the light meter."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "The higher the setting on the light meter, the lower its sensitivity to light.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the relationship between the settings and sensitivity mentioned in the information.",
+	  "Explanation": "The statement is False. In the context of a light meter, higher settings typically indicate greater sensitivity to light, allowing the meter to detect lower light levels."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "The three settings (2,000; 20,000; 100,000) represent the _______ of the light meter.",
+	  "Options": {
+		"1": "Colors",
+		"2": "Sensitivity",
+		"3": "Intensity",
+		"4": "Temperature"
+	  },
+	  "CorrectAnswer": "Sensitivity",
+	  "Hint": "Focus on the specific representation mentioned in the information.",
+	  "Explanation": "The correct answer is \"sensitivity.\" The information states that these settings represent the sensitivity of the light meter, highlighting their role in adjusting the meter's ability to detect light."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "Which setting should students choose according to the instruction?",
+	  "Options": {
+		"1": "The lowest setting (2,000)",
+		"2": "The middle setting (20,000)",
+		"3": "The highest setting (100,000)",
+		"4": "Any setting they prefer"
+	  },
+	  "CorrectAnswer": "The middle setting (20,000)",
+	  "Hint": "Consider the specific choice recommended in the instruction.",
+	  "Explanation": "The correct answer is b) The middle setting (20,000). The instruction instructs students to choose the middle setting."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Students have the flexibility to choose any setting they prefer for the light meter.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. The instruction explicitly recommends that students should choose the middle setting (20,000), indicating a specific choice to follow."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "According to the instruction, students should choose the _______ setting (20,000).",
+	  "Options": {
+		"1": "Lowest",
+		"2": "Middle",
+		"3": "Highest",
+		"4": "Any"
+	  },
+	  "CorrectAnswer": "Middle",
+	  "Hint": "Focus on the specific recommendation mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"middle.\" The instruction advises students to choose the middle setting (20,000), emphasizing a particular selection for the light meter."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What does each reading represent when the sensitivity is set to x10 lux, as mentioned in the information?",
+	  "Options": {
+		"1": "Units of 1 lux",
+		"2": "Units of 10 lux",
+		"3": "Units of 100 lux",
+		"4": "Units of 1000 lux"
+	  },
+	  "CorrectAnswer": "Units of 10 lux",
+	  "Hint": "Consider the information about the representation of readings.",
+	  "Explanation": "The correct answer is b) Units of 10 lux. According to the information, each reading represents units of x10 lux, meaning that a reading like \"024\" represents 240 lux (24 × 10 lux)."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Setting the sensitivity to x10 lux will result in readings that are 10 times greater than the actual lux level.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on how the sensitivity setting affects the readings.",
+	  "Explanation": "The statement is False. Setting the sensitivity to x10 lux means that the readings are in units of x10 lux, which means they are already adjusted to represent the actual lux level. For example, a reading of \"024\" represents 240 lux (24 × 10 lux)."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "This will set the sensitivity to x10 lux. Each reading will be in units of x _______ lux.",
+	  "Options": {
+		"1": "1",
+		"2": "10",
+		"3": "100",
+		"4": "1000"
+	  },
+	  "CorrectAnswer": "10",
+	  "Hint": "Focus on the specific unit mentioned in the information.",
+	  "Explanation": "The correct answer is \"10.\" The information states that setting the sensitivity to x10 lux results in readings that are in units of x10 lux, indicating that each reading is ten times the actual lux level."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What should students do as part of advance preparation before making observations, according to the instruction?",
+	  "Options": {
+		"1": "Attach a paper clip to the light meter",
+		"2": "Tape a cardboard tube to the sensor",
+		"3": "Remove the sensor from the light meter",
+		"4": "Use a magnifying glass with the light meter"
+	  },
+	  "CorrectAnswer": "Tape a cardboard tube to the sensor",
+	  "Hint": "Focus on the specific preparation step mentioned in the instruction.",
+	  "Explanation": "The correct answer is b) Tape a cardboard tube to the sensor. The instruction instructs students to tape a cardboard tube to the light meter so the tube surrounds the sensor."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Taping a cardboard tube to the light meter sensor is not necessary for advance preparation.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Consider the importance of this step in the advance preparation process.",
+	  "Explanation": "The statement is False. The instruction specifies that students should tape a cardboard tube to the light meter sensor as part of advance preparation, indicating its necessity."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Before making any observations, students should tape a cardboard tube to the light meter so the tube surrounds the _______.",
+	  "Options": {
+		"1": "Flashlight",
+		"2": "Picture mat",
+		"3": "Sensor",
+		"4": "Template"
+	  },
+	  "CorrectAnswer": "Sensor",
+	  "Hint": "Focus on the specific component mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"sensor.\" The instruction directs students to tape a cardboard tube to the light meter so the tube surrounds the sensor, highlighting a crucial step in preparation."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What is the purpose of placing the flashlight on top of a wooden block or a set of books, as per the instruction?",
+	  "Options": {
+		"1": "To hide the flashlight",
+		"2": "To lower the height of the flashlight",
+		"3": "To ensure the flashlight is in contact with the table top",
+		"4": "To elevate the flashlight about 3-4 inches above the table top"
+	  },
+	  "CorrectAnswer": "To elevate the flashlight about 3-4 inches above the table top",
+	  "Hint": "Consider the intended outcome of this action mentioned in the instruction.",
+	  "Explanation": "The correct answer is d) To elevate the flashlight about 3-4 inches above the table top. The instruction specifies that the purpose is to elevate the flashlight to a certain height above the table top."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Placing the flashlight directly on the table top without elevation is the recommended method for this experiment.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. The instruction clearly recommends placing the flashlight on top of a wooden block or a set of books to elevate it about 3-4 inches above the table top, indicating this as the preferred method for the experiment."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "To ensure proper elevation, place the flashlight on top of a wooden block or a set of books so it is elevated about _______ inches above the table top.",
+	  "Options": {
+		"1": "1-2",
+		"2": "2-3",
+		"3": "3-4",
+		"4": "4-5"
+	  },
+	  "CorrectAnswer": "3-4",
+	  "Hint": "Focus on the specified elevation mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"3-4.\" The instruction provides a specific range, indicating that the flashlight should be elevated about 3-4 inches above the table top for the experiment."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What is the primary reason for elevating the flashlight, as mentioned in the instruction?",
+	  "Options": {
+		"1": "To create shadows",
+		"2": "To block the light",
+		"3": "To prevent interference with the picture mat",
+		"4": "To reduce the intensity of the light"
+	  },
+	  "CorrectAnswer": "To prevent interference with the picture mat",
+	  "Hint": "Consider the specific purpose stated in the instruction.",
+	  "Explanation": "The correct answer is c) To prevent interference with the picture mat. The instruction explains that elevating the flashlight ensures that the light is not blocked by the picture mat holding the one-way mirror material."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Elevating the flashlight is optional and does not affect the experiment's outcome.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the importance of this action in the context of the instruction.",
+	  "Explanation": "The statement is False. The instruction emphasizes that elevating the flashlight is important to prevent interference with the picture mat and ensure the success of the experiment."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Elevating the flashlight ensures the light is not blocked by the _______ that holds the one-way mirror material.",
+	  "Options": {
+		"1": "Flashlight",
+		"2": "Picture mat",
+		"3": "Sensor",
+		"4": "Template"
+	  },
+	  "CorrectAnswer": "Picture mat",
+	  "Hint": "Focus on the specific component mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"picture mat.\" The instruction specifies that elevating the flashlight prevents interference with the picture mat, ensuring that the light is not blocked during the experiment."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What should students do after measuring the light coming from the flashlight, as per the instruction?",
+	  "Options": {
+		"1": "Turn off the flashlight",
+		"2": "Compare the measurement to previous experiments",
+		"3": "Record the number in the middle of their handout",
+		"4": "Record the number in the box at the top of their handout"
+	  },
+	  "CorrectAnswer": "Record the number in the box at the top of their handout",
+	  "Hint": "Focus on the specific location mentioned for recording the measurement.",
+	  "Explanation": "The correct answer is d) Record the number in the box at the top of their handout. The instruction clearly states that the recorded measurement should be placed in the box at the top of the handout."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Students are not required to record the baseline measurement for this experiment.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Consider the importance of recording the baseline measurement as stated in the instruction.",
+	  "Explanation": "The statement is False. The instruction instructs students to take a baseline measurement of the light coming from the flashlight and emphasizes the need to record that number in the box at the top of their handout."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "After measuring the light from the flashlight, students should record the number in the box at the _______ of their handout.",
+	  "Options": {
+		"1": "Top",
+		"2": "Middle",
+		"3": "Bottom",
+		"4": "Side"
+	  },
+	  "CorrectAnswer": "Top",
+	  "Hint": "Focus on the specific location mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"top.\" The instruction specifies that the recorded measurement should be placed in the box at the top of the handout."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "How should students determine the distance between the flashlight and the light meter for all observations, as per the instruction?",
+	  "Options": {
+		"1": "Use a ruler to measure the distance",
+		"2": "Use the long diagonal line on the template as a reference",
+		"3": "Estimate the distance visually",
+		"4": "Change the distance for each observation"
+	  },
+	  "CorrectAnswer": "Use the long diagonal line on the template as a reference",
+	  "Hint": "Consider the method mentioned in the instruction for maintaining a consistent distance.",
+	  "Explanation": "The correct answer is b) Use the long diagonal line on the template as a reference. The instruction specifies that the distance should correspond to the long diagonal line on the template and remain consistent for all observations."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Changing the distance between the flashlight and the light meter for different observations is recommended for accurate results.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. The instruction emphasizes that the flashlight should be at the same distance from the light meter for all observations, corresponding to the long diagonal line on the template, to ensure consistency in the experiment."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "The flashlight should be the same distance from the light meter as it will be for all the observations, which corresponds to the distance across the _______ line on the template.",
+	  "Options": {
+		"1": "Short diagonal",
+		"2": "Long diagonal",
+		"3": "Vertical",
+		"4": "Horizontal"
+	  },
+	  "CorrectAnswer": "Long diagonal",
+	  "Hint": "Focus on the specific reference mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"long diagonal.\" The instruction indicates that the distance should match the long diagonal line on the template to maintain consistency in the experiment."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "Where should students position the light meter to test the amount of light a material transmits, as per the instruction?",
+	  "Options": {
+		"1": "Next to the flashlight",
+		"2": "In the same corner as the flashlight",
+		"3": "At the opposite corner of the template from the flashlight",
+		"4": "In the center of the template"
+	  },
+	  "CorrectAnswer": "At the opposite corner of the template from the flashlight",
+	  "Hint": "Consider the specific location mentioned in the instruction for placing the light meter.",
+	  "Explanation": "The correct answer is c) At the opposite corner of the template from the flashlight. The instruction specifies that students should hold the light meter in this position for testing the amount of light transmitted through the material."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Testing the amount of light a material transmits requires placing the light meter in the same corner as the flashlight.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. According to the instruction, students should hold the light meter at the opposite corner of the template from the flashlight to test the amount of light transmitted by the material."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "To test the amount of light a material transmits, students should hold the light meter at the opposite corner of the template from the _______.",
+	  "Options": {
+		"1": "Flashlight",
+		"2": "Picture mat",
+		"3": "Sensor",
+		"4": "Template"
+	  },
+	  "CorrectAnswer": "Flashlight",
+	  "Hint": "Focus on the specific reference mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"flashlight.\" According to the instruction, the light meter should be positioned at the opposite corner of the template from the flashlight for testing the light transmission of the material."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "Where should students position both the light meter and the flashlight, as mentioned in the instruction? ",
+	  "Options": {
+		"1": "At the corners of the template",
+		"2": "Along the edges of the template",
+		"3": "Centered along the lines of the template, toward the center of the material",
+		"4": "At opposite corners of the material"
+	  },
+	  "CorrectAnswer": "Centered along the lines of the template, toward the center of the material",
+	  "Hint": "Consider the specific positioning mentioned in the instruction.",
+	  "Explanation": "The correct answer is c) Centered along the lines of the template, toward the center of the material. The instruction specifies that both the light meter and the flashlight should be positioned in this manner."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Positioning the light meter and the flashlight along the edges of the template is recommended for accurate testing.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. According to the instruction, both the light meter and the flashlight should be centered along the lines of the template, toward the center of the material, for accurate testing."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Both the light meter and the flashlight should be centered along the lines of the template, toward the center of the _______.",
+	  "Options": {
+		"1": "Flashlight",
+		"2": "Picture mat",
+		"3": "Sensor",
+		"4": "Material"
+	  },
+	  "CorrectAnswer": "Material",
+	  "Hint": "Focus on the specific reference mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"material.\" The instruction indicates that both the light meter and the flashlight should be centered along the lines of the template, toward the center of the material, for the testing procedure."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "Where should students position the light meter to test the amount of light a material reflects, as per the instruction?",
+	  "Options": {
+		"1": "At the opposite corner of the template from the flashlight",
+		"2": "Next to the flashlight",
+		"3": "In the same corner as the flashlight",
+		"4": "In the center of the template"
+	  },
+	  "CorrectAnswer": "In the same corner as the flashlight",
+	  "Hint": "Consider the specific location mentioned in the instruction for placing the light meter.",
+	  "Explanation": "The correct answer is c) In the same corner as the flashlight. The instruction specifies that students should hold the light meter in the same corner as the flashlight for testing the amount of light reflected by the material."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Testing the amount of light a material reflects requires placing the light meter at the opposite corner of the template from the flashlight.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. According to the instruction, students should hold the light meter in the same corner as the flashlight to test the amount of light reflected by the material."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "To test the amount of light a material reflects, students should hold the light meter in the same corner as the _______.",
+	  "Options": {
+		"1": "Flashlight",
+		"2": "Picture mat",
+		"3": "Sensor",
+		"4": "Template"
+	  },
+	  "CorrectAnswer": "Flashlight",
+	  "Hint": "Focus on the specific reference mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"flashlight.\" According to the instruction, the light meter should be positioned in the same corner as the flashlight for testing the light reflection of the material."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What should students do if the flashlight or the light meter is accidentally moved during testing, according to the instruction?",
+	  "Options": {
+		"1": "Continue with the experiment without making any adjustments",
+		"2": "Restart the experiment from the beginning",
+		"3": "Adjust the position to match the original setup",
+		"4": "Guess the correct positions"
+	  },
+	  "CorrectAnswer": "Adjust the position to match the original setup",
+	  "Hint": "Consider the recommended action in case of accidental movement during testing.",
+	  "Explanation": "The correct answer is c) Adjust the position to match the original setup. The instruction advises students to adjust the position of the flashlight or light meter if accidental movement occurs during testing."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "If the flashlight or light meter is accidentally moved during testing, students should continue with the experiment without making any adjustments.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. According to the instruction, students should adjust the position of the flashlight or light meter to match the original setup if accidental movement occurs during testing."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "If the flashlight or light meter is accidentally moved during testing, students should adjust the position to match the original _______.",
+	  "Options": {
+		"1": "Flashlight",
+		"2": "Picture mat",
+		"3": "Sensor",
+		"4": "Setup"
+	  },
+	  "CorrectAnswer": "Setup",
+	  "Hint": "Focus on the specific reference mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"setup.\" According to the instruction, students should adjust the position of the flashlight or light meter to match the original setup if accidental movement occurs during testing."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "How should students use the data collected during testing, as mentioned in the instruction?",
+	  "Options": {
+		"1": "Ignore the data and proceed to the conclusion",
+		"2": "Average the data from different materials",
+		"3": "Make assumptions about the data",
+		"4": "Record the data directly on the template"
+	  },
+	  "CorrectAnswer": "Average the data from different materials",
+	  "Hint": "Consider the recommended approach for using the collected data.",
+	  "Explanation": "The correct answer is b) Average the data from different materials. The instruction suggests averaging the data collected from different materials as part of the analysis process."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Students should make assumptions about the data collected during testing, even if the results are inconsistent.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the guidance provided in the instruction.",
+	  "Explanation": "The statement is False. According to the instruction, students should avoid making assumptions about the data and, instead, focus on averaging the data from different materials as part of the analysis."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "To analyze the data collected during testing, students should _______ the data from different materials.",
+	  "Options": {
+		"1": "Ignore",
+		"2": "Assume",
+		"3": "Record",
+		"4": "Average"
+	  },
+	  "CorrectAnswer": "Average",
+	  "Hint": "Focus on the recommended approach mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"average.\" The instruction suggests that students should average the data collected from different materials as part of the analysis process."
+	}
+  ]
+  

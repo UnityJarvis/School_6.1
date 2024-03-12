@@ -85,6 +85,7 @@ public class UIManager : MonoBehaviour
     {
         allPanels[1].GetComponentsInChildren(experimentPanelButtons);
         experimentPanelButtons.RemoveAt(0);
+        experimentPanelButtons.RemoveAt(experimentPanelButtons.Count - 1); //FOR Removal of QNA Button name(7)
         foreach (Button button in experimentPanelButtons) { button.onClick.AddListener(() => ExperimentPanelButtonFunction(int.Parse(button.name))); }
     }
 
@@ -165,6 +166,7 @@ public class UIManager : MonoBehaviour
         foreach (GameObject panel in allPanels) { panel.SetActive(false); }
         allPanels[2].SetActive(true);
         foreach (ContentSizeFitter context in videoPlayerContextPanel) { context.gameObject.SetActive(false); }
+        
         videoPlayerContextPanel[contextIndex - 1].gameObject.SetActive(true);
         leftButtonsScrollView.content = contextRectTransform[contextIndex];
     }

@@ -1,0 +1,99 @@
+[
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: Making a regular mirror begins with a piece of glass or plastic.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "True",
+	  "Hint": "Consider the initial step in the process of making a regular mirror.",
+	  "Explanation": "The correct answer is True. The statement accurately describes the starting point of making a regular mirror, which is a piece of glass or plastic."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "A piece of glass is transparent because it __________ most of the light that shines on it.",
+	  "Options": {
+		"1": "Reflects",
+		"2": "Absorbs",
+		"3": "Transmits",
+		"4": "Blocks"
+	  },
+	  "CorrectAnswer": "Transmits",
+	  "Hint": "Focus on the property of glass mentioned in the provided information.",
+	  "Explanation": "The correct answer is 'transmits.' A piece of glass is transparent because it transmits most of the light that shines on it, allowing the light to pass through."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "How is a one-way mirror made?",
+	  "Options": {
+		"1": "By using only one piece of glass",
+		"2": "By applying a thin layer of regular mirror film",
+		"3": "By combining a thin layer of one-way mirror film and a piece of glass",
+		"4": "By painting one side of a piece of glass black"
+	  },
+	  "CorrectAnswer": "By combining a thin layer of one-way mirror film and a piece of glass",
+	  "Hint": "Consider the description provided for making a one-way mirror.",
+	  "Explanation": "The correct answer is (c) 'By combining a thin layer of one-way mirror film and a piece of glass.' This combination creates the one-way mirror effect."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: A one-way mirror is made using regular mirror film.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the description of the components used to make a one-way mirror.",
+	  "Explanation": "The correct answer is False. A one-way mirror is made using one-way mirror film, not regular mirror film. One-way mirror film has specific properties that allow it to function as a one-way mirror."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "How is a one-way mirror made by combining a thin layer of one-way mirror film and a piece of glass?",
+	  "Options": {
+		"1": "By using regular mirror film",
+		"2": "By applying paint to the glass",
+		"3": "By using opaque glass",
+		"4": "By using one-way mirror film with special structures"
+	  },
+	  "CorrectAnswer": "By using one-way mirror film with special structures",
+	  "Hint": "Focus on the description of the components used in making a one-way mirror.",
+	  "Explanation": "The correct answer is (d) 'By using one-way mirror film with special structures.' The special structures in the one-way mirror film enable it to function as a one-way mirror."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: The one-way mirror film used in making a one-way mirror does not have any unique features or structures.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Consider the information provided about the one-way mirror film.",
+	  "Explanation": "The correct answer is False. The statement is incorrect because the one-way mirror film used in making a one-way mirror does indeed have special structures that allow it to exhibit the one-way mirror effect."
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "Why can't glass transmit all the light?",
+	  "Options": {
+		"1": "Glass lacks transparency",
+		"2": "Glass is opaque",
+		"3": "Glass has impurities, dust, and other surface contaminants",
+		"4": "Glass is too thick"
+	  },
+	  "CorrectAnswer": "Glass has impurities, dust, and other surface contaminants",
+	  "Hint": "Focus on the reasons mentioned for the limited transmission of light through glass.",
+	  "Explanation": "The correct answer is (c) 'Glass has impurities, dust, and other surface contaminants.' These factors contribute to the reduced ability of glass to transmit all the light."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: Glass is completely transparent and can transmit all light without any limitations.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Consider the information provided about the limitations of glass.",
+	  "Explanation": "The correct answer is False. The statement is incorrect because glass does have limitations in its ability to transmit light due to impurities, dust, and other surface contaminants."
+	}
+  ]
+  

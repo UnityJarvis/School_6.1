@@ -24,7 +24,7 @@ namespace InuCom.SchoolVR.UI.Videos
                 var videoButton = Instantiate(videoScriptableObj.buttonPrefab, scrollViewContext);
                 Text text = videoButton.GetComponentInChildren<Text>();
                 text.text = (i + 1).ToString() + " - " + videoScriptableObj.videoList[i].name;
-                videoButton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer, text.text, vpb); });
+                videoButton.onClick.AddListener(() => { OnButtonPress(videoScriptableObj, videoPlayer, text.text); });
             }
         }
 
@@ -36,12 +36,12 @@ namespace InuCom.SchoolVR.UI.Videos
         /// <param name="videoName">The name of the selected video.</param>
         /// <param name="vp">The VideoPlayerAudio component for audio control.</param>
         /// <param name="vpb">The VideoPlayerSeekBar component for controlling video playback progress.</param>
-        internal static void OnButtonPress(VideoLessons videoScriptableObj, VideoPlayer videoPlayer, string videoName, VideoPlayerSeekBar vpb)
+        internal static void OnButtonPress(VideoLessons videoScriptableObj, VideoPlayer videoPlayer, string videoName)
         {
             int videoIndex = int.Parse(videoName.Substring(0, videoName.IndexOf("-")).Replace(" ", ""));
             videoPlayer.clip = videoScriptableObj.videoList[videoIndex - 1];
             PlayVideo(videoPlayer);
-            vpb.ChangeMaxSliderValue(videoPlayer);
+            //vpb.ChangeMaxSliderValue(videoPlayer);
         }
         internal static void PlayVideo(VideoPlayer videoPlayer)
         {

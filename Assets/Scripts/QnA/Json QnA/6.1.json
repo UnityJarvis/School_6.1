@@ -1,0 +1,146 @@
+[
+	
+	{
+		"QuestionType": "True/False",
+		"Question": "The piece of cardboard or dark paper needs to be larger than Room A's flashlight hole.",
+		"Options":  
+			{
+				"1" : "True", 
+				"2" : "False"
+			}
+		,
+		"CorrectAnswer": "True",
+		"Explanation": "For the cardboard or dark paper to effectively cover the flashlight hole, it needs to be larger than the hole itself to ensure complete coverage without gaps."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What should be used to cover the flashlight hole in Room A?",
+		"Options":  
+			{
+				"1" : "A mirror", 
+				"2" : "A piece of cloth",
+				"3" : "A small piece of cardboard or dark paper",
+				"4" : "A plastic sheet"
+			}
+		,
+		"CorrectAnswer": "A small piece of cardboard or dark paper",
+		"Explanation": "A small piece of cardboard or dark paper. This is specified in the instructions as the material to cover the flashlight hole, as both cardboard and dark paper are opaque and block light effectively."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Cut a ________ piece of cardboard or dark paper to cover the flashlight hole in Room A.",
+		"Options":  
+			{
+				"1" : "small", 
+				"2" : "A ",
+				"3" : " or dark paper",
+				"4" : " sheet"
+			}
+		,
+		"CorrectAnswer": "small",
+		"Explanation": "The instructions specify a small piece of cardboard or dark paper implying that it only needs to be large enough to cover the flashlight hole, not excessively large."
+	}, 
+	
+	{
+		"QuestionType": "MCQ",
+		"Question": "What action is required in Room B?",
+		"Options": {
+			"1": "Turn off the light",
+			"2": "Open the window",
+			"3": "Turn on the flashlight",
+			"4": "Close the door"
+		},
+		"CorrectAnswer": "Turn on the flashlight",
+		"Explanation": "The correct answer is 'Turn on the flashlight.' The instruction explicitly states to 'Turn the flashlight on in Room B,' indicating that the action involves activating a flashlight, not performing other actions in the room."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "The flashlight in Room B should be turned off.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Explanation": "The statement is False. The instruction was to 'Turn the flashlight on in Room B,' not to turn it off. This question tests attention to detail in following instructions."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Turn the ________ on in Room B.",
+		"Options": {
+			"1": "mirror",
+			"2": "cloth",
+			"3": "plastic sheet",
+			"4": "flashlight"
+		},
+		"CorrectAnswer": "flashlight",
+		"Explanation": "The correct answer is 'flashlight.' The instruction given was to specifically turn on a flashlight, which is the focus of this action."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What should you be able to see when looking through the viewing hole in Room A?",
+		"Options": {
+			"1": "Only Room A's toy",
+			"2": "Only Room B's toy",
+			"3": "Both Room A's and Room B's toys",
+			"4": "Neither of the toys"
+		},
+		"CorrectAnswer": "Both Room A's and Room B's toys",
+		"Explanation": "The correct answer is 'Both Room A�s and Room B�s toys.' The one-way mirror allows viewing from Room A into Room B, making it possible to see both toys from Room A's viewing hole."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "From the viewing hole in Room A, you can only see Room A's toy, not the toy in Room B.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Explanation": "The statement is False. The instruction indicates that through the viewing hole, you should be able to see Room A�s toy in the dark and also see through the one-way mirror to the toy in Room B. Therefore, you can see both toys, not just one."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "When you look through the viewing hole in Room A, you should see Room A's toy and through the one-way mirror to the toy in _______.",
+		"Options": {
+			"1": "Room B",
+			"2": "Room C",
+			"3": "Room D",
+			"4": "Room E"
+		},
+		"CorrectAnswer": "Room B",
+		"Explanation": "The correct answer is 'Room B.' The instruction specifies that from Room A, you should be able to see the toy in Room A and also see through the one-way mirror to view the toy in Room B."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What should you see when looking through the viewing hole in Room B?",
+		"Options": {
+			"1": "Only the toy in Room A",
+			"2": "Both Room A's and Room B's toys",
+			"3": "Room B's toy in the light and its reflection",
+			"4": "A dark room with no toys"
+		},
+		"CorrectAnswer": "Room B's toy in the light and its reflection",
+		"Explanation": "The correct answer is 'Room B's toy in the light and its reflection.' The instruction indicates that from Room B, one should see the toy in Room B illuminated and its reflection in the one-way mirror, not the toy in Room A or both toys."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "In Room B, you can see Room A's toy through the viewing hole.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Explanation": "The statement is False. The instruction specifies that from Room B's viewing hole, you should see Room B's toy in the light and its reflection in the mirror, not Room A's toy."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "When looking through the viewing hole in Room B, you should see Room B's toy in the _______ and reflected in the one-way mirror.",
+		"Options": {
+			"1": "dark",
+			"2": "shadows",
+			"3": "light",
+			"4": "haze"
+		},
+		"CorrectAnswer": "light",
+		"Explanation": "The correct answer is 'light.' The instruction clearly states that in Room B, you should see the toy in a well-lit condition and its reflection in the one-way mirror."
+	}
+]

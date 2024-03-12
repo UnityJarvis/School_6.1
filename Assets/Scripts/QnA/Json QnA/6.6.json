@@ -1,0 +1,312 @@
+[
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Keep the flashlight at the same ________ and hold the magnifying glass between the flashlight and the page.",
+	  "Options": {
+		"1": "Distance",
+		"2": "Height",
+		"3": "Angle",
+		"4": "Position"
+	  },
+	  "CorrectAnswer": "Height",
+	  "Hint": "Recall the specific instruction about the flashlight's position.",
+	  "Explanation": "The correct answer is 'height.' You should keep the flashlight at the same height while holding the magnifying glass between the flashlight and the page."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What action should you take with the magnifying glass according to the instruction?",
+	  "Options": {
+		"1": "Keep the magnifying glass still",
+		"2": "Move the magnifying glass in a circular motion",
+		"3": "Move the magnifying glass up and down",
+		"4": "Hold the magnifying glass away from the page"
+	  },
+	  "CorrectAnswer": "Move the magnifying glass up and down",
+	  "Hint": "Consider the specific action mentioned in the instruction.",
+	  "Explanation": "The correct answer is C) Move the magnifying glass up and down. The instruction suggests moving the magnifying glass in this manner."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: The instruction advises keeping the magnifying glass still while using it.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Think about what the instruction recommends.",
+	  "Explanation": "The correct answer is False. The instruction suggests moving the magnifying glass up and down."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Move the magnifying glass ___ and down.",
+	  "Options": {
+		"1": "Left",
+		"2": "Right",
+		"3": "Up",
+		"4": "Down"
+	  },
+	  "CorrectAnswer": "Up and Down",
+	  "Hint": "Recall the specific direction of movement mentioned in the instruction.",
+	  "Explanation": "The correct answer is 'up' and 'down.' According to the instruction, you should move the magnifying glass up and down."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "Where should you hold the magnifying glass according to the instruction?",
+	  "Options": {
+		"1": "Very close to the flashlight",
+		"2": "Very close to the page",
+		"3": "About midway between the flashlight and the page",
+		"4": "As far away from both the flashlight and the page as possible"
+	  },
+	  "CorrectAnswer": "About midway between the flashlight and the page",
+	  "Hint": "Consider the specific location mentioned in the instruction.",
+	  "Explanation": "The correct answer is C) About midway between the flashlight and the page. The instruction advises holding the magnifying glass in this position."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: The instruction recommends holding the magnifying glass very close to the page.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Think about the recommended position for holding the magnifying glass.",
+	  "Explanation": "The correct answer is False. The instruction suggests holding the magnifying glass midway between the flashlight and the page."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Hold the magnifying glass about ___ between the flashlight and the page and trace around the light.",
+	  "Options": {
+		"1": "Close",
+		"2": "Midway",
+		"3": "Far",
+		"4": "Near"
+	  },
+	  "CorrectAnswer": "Midway",
+	  "Hint": "Recall the specific location mentioned in the instruction.",
+	  "Explanation": "The correct answer is 'midway' between the flashlight and the page. The instruction advises holding the magnifying glass about midway between the two."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What is the phenomenon called when a lens changes the direction of light so that it converges to a point?",
+	  "Options": {
+		"1": "Reflection",
+		"2": "Diffraction",
+		"3": "Refraction",
+		"4": "Dispersion"
+	  },
+	  "CorrectAnswer": "Refraction",
+	  "Hint": "Consider the described effect of a lens on light.",
+	  "Explanation": "The correct answer is C) Refraction. Refraction is the phenomenon where a lens or other transparent medium changes the direction of light as it passes through, causing it to converge or diverge."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: A lens, such as the lens of the human eye, does not change the direction of light.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Think about what the provided information states about the lens.",
+	  "Explanation": "The correct answer is False. The provided information states that a lens changes the direction of light, causing it to converge to a point, and this phenomenon is called refraction."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "A lens, like the lens of the human eye, changes the direction of light so the light __________ to a point. This phenomenon is called refraction.",
+	  "Options": {
+		"1": "Reflects",
+		"2": "Absorbs",
+		"3": "Scatters",
+		"4": "Converges"
+	  },
+	  "CorrectAnswer": "Converges",
+	  "Hint": "Recall the word that describes light coming together at a point.",
+	  "Explanation": "The correct answer is 'converges.' A lens causes light to converge to a point through the phenomenon of refraction."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What happens to the direction of light when it moves from the air and through a different transparent material?",
+	  "Options": {
+		"1": "It remains unchanged",
+		"2": "It becomes parallel to the surface",
+		"3": "It changes direction (refracts)",
+		"4": "It becomes absorbed by the material"
+	  },
+	  "CorrectAnswer": "It changes direction (refracts)",
+	  "Hint": "Consider the described effect on the direction of light.",
+	  "Explanation": "The correct answer is C) It changes direction (refracts). When light moves from one transparent material to another, it changes direction due to the phenomenon of refraction."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: Light does not change its direction when it moves from the air to a different transparent material.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Think about what the provided information states about the change in direction of light.",
+	  "Explanation": "The correct answer is False. The provided information states that when light moves from the air to a different transparent material, it changes direction (refracts)."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "When light moves from the air and through a different transparent material, it changes direction and __________ (refracts).",
+	  "Options": {
+		"1": "Reflects",
+		"2": "Scatters",
+		"3": "Absorbs",
+		"4": "Transmits"
+	  },
+	  "CorrectAnswer": "Refracts",
+	  "Hint": "Recall the word that describes the change in the direction of light.",
+	  "Explanation": "The correct answer is 'refracts.' Light changes direction and refracts when it passes from one transparent material to another."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What does a lens do to the light as it passes through, according to the provided information?",
+	  "Options": {
+		"1": "It absorbs the light.",
+		"2": "It scatters the light.",
+		"3": "It causes the light to refract and focus.",
+		"4": "It blocks the light completely."
+	  },
+	  "CorrectAnswer": "It causes the light to refract and focus.",
+	  "Hint": "Consider the effect of the lens on the light as described.",
+	  "Explanation": "The correct answer is C) It causes the light to refract and focus. According to the provided information, a lens causes the light to refract and focus on the retina."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: The conversion of light into electrical signals occurs in the lens of the eye.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Think about where in the eye the conversion into electrical signals actually takes place.",
+	  "Explanation": "The correct answer is False. The conversion of light into electrical signals occurs in the retina at the back of the eye, not in the lens."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "After being focused on the retina, the inputs of light change into ____________ signals.",
+	  "Options": {
+		"1": "Optical",
+		"2": "Mechanical",
+		"3": "Sound",
+		"4": "Electrical"
+	  },
+	  "CorrectAnswer": "Electrical",
+	  "Hint": "Consider what type of signals are generated in the retina.",
+	  "Explanation": "The correct answer is 'electrical.' After being focused on the retina, the inputs of light change into electrical signals."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What can be said about the strength of the two electrical signals from the inputs of light?",
+	  "Options": {
+		"1": "They are of equal strength.",
+		"2": "They are both very weak.",
+		"3": "They are not the same strength.",
+		"4": "They are amplified by the lens."
+	  },
+	  "CorrectAnswer": "They are not the same strength.",
+	  "Hint": "Consider the statement about the strength of the electrical signals.",
+	  "Explanation": "The correct answer is C) They are not the same strength. The statement indicates that the two electrical signals have different strengths."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: Both electrical signals are equally strong.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the statement about the strength of the electrical signals.",
+	  "Explanation": "The correct answer is False. The statement explicitly mentions that the two electrical signals are not the same strength."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "The input of light that has reflected off the student is a ____________ input compared to the light reflected off the teacher.",
+	  "Options": {
+		"1": "Dimmer",
+		"2": "Weaker",
+		"3": "Brighter",
+		"4": "Stronger"
+	  },
+	  "CorrectAnswer": "Stronger",
+	  "Hint": "Consider the comparative strength of the inputs.",
+	  "Explanation": "The statement indicates that the input of light reflected off the student is stronger compared to the light reflected off the teacher."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What is the pathway taken by both signals to reach the brain?",
+	  "Options": {
+		"1": "They travel through the ear canal.",
+		"2": "They travel through the spinal cord.",
+		"3": "They travel along the optic nerve.",
+		"4": "They travel through the bloodstream."
+	  },
+	  "CorrectAnswer": "They travel along the optic nerve.",
+	  "Hint": "Consider the statement about the pathway taken by the signals.",
+	  "Explanation": "The correct answer is C) They travel along the optic nerve. The statement mentions that both signals travel to the brain along the optic nerve."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: The signals take different routes to reach the brain.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the statement about the pathway of the signals.",
+	  "Explanation": "The correct answer is False. The statement clearly states that both signals travel to the brain along the optic nerve."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Both signals travel to the brain along the ____________ nerve.",
+	  "Options": {
+		"1": "Olfactory",
+		"2": "Auditory",
+		"3": "Optic",
+		"4": "Vagus"
+	  },
+	  "CorrectAnswer": "Optic",
+	  "Hint": "Recall the specific nerve mentioned in the statement.",
+	  "Explanation": "The correct answer is 'optic.' The statement specifies that both signals travel along the optic nerve to reach the brain."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "What determines which input the brain responds to?",
+	  "Options": {
+		"1": "The brightness of the room.",
+		"2": "The color of the objects.",
+		"3": "The strength of the signal.",
+		"4": "The size of the objects."
+	  },
+	  "CorrectAnswer": "The strength of the signal.",
+	  "Hint": "Consider the statement regarding the brain's response to signals.",
+	  "Explanation": "The correct answer is C) The strength of the signal. The statement mentions that the brain responds to the stronger signal."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: The brain always responds to the signal from the teacher.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the statement about the brain's response.",
+	  "Explanation": "The correct answer is False. The statement explicitly states that the brain responds to the stronger signal, which may be from the student or the teacher."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "The brain responds to the ____________ signal.",
+	  "Options": {
+		"1": "Brighter",
+		"2": "Louder",
+		"3": "Faster",
+		"4": "Stronger"
+	  },
+	  "CorrectAnswer": "Stronger",
+	  "Hint": "Recall what the statement mentions about the brain's response.",
+	  "Explanation": "The statement indicates that the brain responds to the stronger signal, resulting in the student seeing himself or herself."
+	}
+  ]
+  

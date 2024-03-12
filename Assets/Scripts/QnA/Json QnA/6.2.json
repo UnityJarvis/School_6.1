@@ -1,0 +1,821 @@
+[
+    {
+        "QuestionType": "MCQ",
+        "Question": "What is essential for creating the one-way mirror effect in the box model assembly?",
+        "Options": {
+            "1": "Box cutter",
+            "2": "One-way mirror film",
+            "3": "Roll of duct tape",
+            "4": "Small binder clips"
+        },
+        "CorrectAnswer": "One-way mirror film",
+        "Hint": "Think about which material directly contributes to the mirror/window functionality.",
+        "Explanation": "The correct answer is \"One-way mirror film.\" This material is crucial for creating the effect where something can serve as both a mirror and a window, which is the focus of the investigation."
+    },
+    {
+        "QuestionType": "True/False",
+        "Question": "Toys or objects used in the box model must be at least 10 inches tall.",
+        "Options": {
+            "1": "True",
+            "2": "False"
+        },
+        "CorrectAnswer": "False",
+        "Hint": "Recall the specific height requirement mentioned for the toys or objects.",
+        "Explanation": "The statement is False. The materials list specifies that the toys or objects should be 'at least 5 inches tall,' not 10 inches."
+    },
+    {
+        "QuestionType": "FillTheBlanks",
+        "Question": "To investigate the mirror and window effect, 2 ________ boxes with lids are required.",
+        "Options": {
+            "1": "Cardboard",
+            "2": "Banker",
+            "3": "Wooden",
+            "4": "Plastic"
+        },
+        "CorrectAnswer": "Banker",
+        "Hint": "Recall the specific type of boxes mentioned in the materials list."
+    },
+    {
+        "QuestionType": "MCQ",
+        "Question": "What should you do first when assembling the boxes for Rooms A and B?",
+        "Options": {
+            "1": "Paint the boxes",
+            "2": "Tape the sides of the boxes",
+            "3": "Follow the instructions on the box",
+            "4": "Attach the one-way mirror"
+        },
+        "CorrectAnswer": "Follow the instructions on the box",
+        "Hint": "Consider the initial step that's essential before making any modifications or attachments.",
+        "Explanation": "The correct answer is \"Follow the instructions on the box.\" The given instruction emphasizes that the boxes arrive flattened and assembly should be done according to the provided instructions, which is typically the first step in such tasks."
+    },
+    {
+        "QuestionType": "True/False",
+        "Question": "The boxes for Rooms A and B come pre-assembled.",
+        "Options": {
+            "1": "True",
+            "2": "False"
+        },
+        "CorrectAnswer": "False",
+        "Hint": "Reflect on the state of the boxes as described in the instruction.",
+        "Explanation": "The statement is False. The instruction clearly states that the boxes 'will arrive flattened,' which means they are not pre-assembled and require assembly."
+    },
+    {
+        "QuestionType": "FillTheBlanks",
+        "Question": "Assemble the boxes for Rooms A and B which will arrive _______.",
+        "Options": {
+            "1": "Assembled",
+            "2": "Flat-packed",
+            "3": "Collapsed",
+            "4": "flattened"
+        },
+        "CorrectAnswer": "flattened",
+        "Hint": "Think about the condition in which the boxes arrive before assembly."
+    },
+    {
+        "QuestionType": "MCQ",
+        "Question": "What should you do with the openings for handles on the box?",
+        "Options": {
+            "1": "Decorate them",
+            "2": "Punch them out",
+            "3": "Leave them unpunched",
+            "4": "Cover them with tape"
+        },
+        "CorrectAnswer": "Leave them unpunched",
+        "Hint": "Think about the main goal of preventing light from entering the box.",
+        "Explanation": "The correct answer is \"Leave them unpunched.\" The instruction is clear that any openings for handles should not be punched out to prevent unwanted light from getting into the closed box."
+    },
+    {
+        "QuestionType": "True/False",
+        "Question": "It is acceptable to punch out the handle openings if the box is kept in a dark room.",
+        "Options": {
+            "1": "True",
+            "2": "False"
+        },
+        "CorrectAnswer": "False",
+        "Hint": "Consider the overall purpose of keeping the box light-tight.",
+        "Explanation": "The statement is False. Regardless of the room's lighting conditions, the instruction specifies not to punch out the handle openings to maintain a light-tight environment inside the box."
+    },
+    {
+        "QuestionType": "FillTheBlanks",
+        "Question": "Do not punch out the handle openings in the box to prevent any _______ light from getting into the closed box.",
+        "Options": {
+            "1": "Direct",
+            "2": "Natural",
+            "3": "unwanted",
+            "4": "Artificial"
+        },
+        "CorrectAnswer": "unwanted",
+        "Hint": "Focus on the type of light that needs to be prevented from entering the box."
+    },
+    {
+        "QuestionType": "MCQ",
+        "Question": "What is the first step in preparing to measure where to cut the holes?",
+        "Options": {
+            "1": "Paint the box lids",
+            "2": "Remove the box lids and place them on a countertop",
+            "3": "Cut the holes immediately",
+            "4": "Tape the box lids shut"
+        },
+        "CorrectAnswer": "Remove the box lids and place them on a countertop",
+        "Hint": "Focus on the initial preparation step before any measuring or cutting.",
+        "Explanation": "The correct answer is \"Remove the box lids and place them on a countertop.\" The instruction specifically directs to first remove the lids from the boxes and then place them on a countertop with the inside facing up, which is essential for accurate measuring and cutting."
+    },
+    {
+        "QuestionType": "True/False",
+        "Question": "The box lids should be placed with the outside facing up on the countertop.",
+        "Options": {
+            "1": "True",
+            "2": "False"
+        },
+        "CorrectAnswer": "False",
+        "Hint": "Recall the orientation of the box lids as mentioned in the instruction.",
+        "Explanation": "The statement is False. The instruction explicitly states that the box lids should be placed on a countertop with the inside facing up, not the outside."
+    },
+    {
+        "QuestionType": "FillTheBlanks",
+        "Question": "Remove the box lids and place them on a countertop with the _______ facing up.",
+        "Options": {
+            "1": "Outside",
+            "2": "Inside",
+            "3": "Top",
+            "4": "Bottom"
+        },
+        "CorrectAnswer": "inside",
+        "Hint": "Think about which side of the lid should be facing upwards for the next steps."
+    },
+    {
+        "QuestionType": "MCQ",
+        "Question": "What should be placed on the first box lid?",
+        "Options": {
+            "1": "A roll of duct tape",
+            "2": "A picture frame mat",
+            "3": "A piece of cardboard",
+            "4": "The one-way mirror film"
+        },
+        "CorrectAnswer": "A picture frame mat",
+        "Hint": "Recall the specific item mentioned in the instruction that needs to be placed on the box lid.",
+        "Explanation": "The correct answer is \"A picture frame mat.\" The instruction clearly states that a picture frame mat should be placed on the first box lid. This step is likely part of a process that involves using the mat as a template or guide."
+    },
+    {
+        "QuestionType": "True/False",
+        "Question": "The picture frame mat should be placed under the first box lid.",
+        "Options": {
+            "1": "True",
+            "2": "False"
+        },
+        "CorrectAnswer": "False",
+        "Hint": "Consider the specific placement of the picture frame mat in relation to the box lid.",
+        "Explanation": "The statement is False. According to the instruction, the picture frame mat should be placed on the first box lid, not under it. This distinction is important for whatever subsequent steps will follow in the assembly or preparation process."
+    },
+    {
+        "QuestionType": "FillTheBlanks",
+        "Question": "Place a picture frame _______ on the first box lid.",
+        "Options": {
+            "1": "Frame",
+            "2": "Mat",
+            "3": "Board",
+            "4": "Cover"
+        },
+        "CorrectAnswer": "mat",
+        "Hint": "Think about what item is being used in conjunction with the box lid according to the instruction."
+    },
+    {
+        "QuestionType": "MCQ",
+        "Question": "How much space should be between each end of the mat and the outside edge of the mat?",
+        "Options": {
+            "1": "Approximately 1 inch",
+            "2": "Approximately 2.5 inches",
+            "3": "Approximately 3 inches",
+            "4": "Approximately 4.25 inches"
+        },
+        "CorrectAnswer": "Approximately 2.5 inches",
+        "Hint": "The correct distance is one that allows for a balanced placement on the box lid.",
+        "Explanation": "The correct answer is b) Approximately 2.5 inches. The instruction specifies that there should be about 2.5 inches from the outside edge of the mat to each end, ensuring proper alignment and spacing for the next steps in the assembly."
+    },
+    {
+        "QuestionType": "True/False",
+        "Question": "There should be exactly 4 inches from the inside edge of the mat to each end.",
+        "Options": {
+            "1": "True",
+            "2": "False"
+        },
+        "CorrectAnswer": "False",
+        "Hint": "Consider the specific range of measurements given for the distance from the inside edge of the mat.",
+        "Explanation": "The statement is False. The instruction does not specify an exact measurement but rather a range from 'a little over 4.25 to 4.5 inches' from the inside edge of the mat. This range allows for some flexibility in placement."
+    },
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "On each end of the mat, the space from the outside edge of the mat should be approximately ______ inches.",
+		"Options": {
+			"1": "2.5",
+			"2": "2.0",
+			"3": "3.0",
+			"4": "1.5"
+		},
+		"CorrectAnswer": "2.5",
+		"Hint": "Recall the specific measurement provided for the distance from the outside edge of the mat."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What should you use the inside of the mat for once it is centered on the box lid?",
+		"Options": {
+			"1": "As a guide to paint the lid",
+			"2": "To outline the opening on the lid",
+			"3": "To cut the lid immediately",
+			"4": "As a decoration"
+		},
+		"CorrectAnswer": "To outline the opening on the lid",
+		"Hint": "Consider the function of a stencil in terms of marking or drawing.",
+		"Explanation": "The correct answer is b) To outline the opening on the lid. The instruction indicates that once the mat is centered, its inside should be used as a stencil to trace or outline the opening on the lid, which is a preparatory step for cutting."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "After centering the mat on the lid, you should immediately cut along the inside edge of the mat.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Focus on what the initial action should be after centering the mat.",
+		"Explanation": "The statement is False. The first action after centering the mat is to use its inside as a stencil to outline the opening on the lid in pencil or pen, not to cut immediately. This ensures precision in the subsequent cutting step."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Once centered, use the inside of the mat as a stencil to outline the opening on the lid in _______.",
+		"Options": {
+			"1": "pencil",
+			"2": "pen",
+			"3": "marker",
+			"4": "crayon"
+		},
+		"CorrectAnswer": "pencil or pen",
+		"Hint": "Think about what tool is typically used for making outlines or markings."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "Why is it important to place the mat in the same exact location on both lids?",
+		"Options": {
+			"1": "To ensure the holes will line up when the lids are taped together",
+			"2": "For aesthetic reasons",
+			"3": "To make the cutting process easier",
+			"4": "To save time"
+		},
+		"CorrectAnswer": "To ensure the holes will line up when the lids are taped together",
+		"Hint": "Think about the purpose of aligning the holes in both lids.",
+		"Explanation": "The correct answer is a) To ensure the holes will line up when the lids are taped together. The instruction emphasizes precision in placement so that when the lids are combined, the holes align correctly, which is crucial for the functionality of the assembled box."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "It's okay if the placement of the mat varies slightly on each lid.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Recall the importance of consistency in the placement of the mat on both lids.",
+		"Explanation": "The statement is False. The instruction specifically states that the mat must be placed in the exact same location on both lids to ensure that the holes line up properly when the lids are taped together."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Be sure to place the mat at the same exact location on both lids so the holes will _______ when the lids are taped together.",
+		"Options": {
+			"1": "align",
+			"2": "overlap",
+			"3": "intersect",
+			"4": "deviate"
+		},
+		"CorrectAnswer": "align",
+		"Hint": "Focus on the result of aligning the mat correctly on both lids."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What tool should be used to cut out the stenciled rectangle on each box lid?",
+		"Options": {
+			"1": "Scissors",
+			"2": "A pencil",
+			"3": "A box cutter",
+			"4": "A ruler"
+		},
+		"CorrectAnswer": "A box cutter",
+		"Hint": "Choose the tool that is typically used for cutting through cardboard.",
+		"Explanation": "The correct answer is c) A box cutter. The instruction specifically mentions using a box cutter to cut out the stenciled rectangle on each lid. A box cutter is appropriate for this task due to its sharpness and ability to make precise cuts."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "You should cut along the outside of the stenciled rectangle on each box lid.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Think about where the stencil marks are in relation to where the cuts should be made.",
+		"Explanation": "The statement is False. The cuts should be made along the stenciled rectangle, which means cutting within the lines of the stencil, not outside of them. This ensures that the holes are the correct size and shape as outlined."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Use a box cutter to cut out the _______ on each lid.",
+		"Options": {
+			"1": "stenciled rectangle",
+			"2": "designated shape",
+			"3": "outlined figure",
+			"4": "marked area"
+		},
+		"CorrectAnswer": "stenciled rectangle",
+		"Hint": "What was outlined by the stencil on the box lids?"
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What should you do with the cardboard cut-outs after cutting the holes in the box lids?",
+		"Options": {
+			"1": "Discard them immediately",
+			"2": "Save them for further use",
+			"3": "Paint them",
+			"4": "Attach them to the outside of the box"
+		},
+		"CorrectAnswer": "Save them for further use",
+		"Hint": "Think about the potential future utility of the cut-out pieces.",
+		"Explanation": "The correct answer is b) Save them for further use. The instruction clearly states to save the cut-out cardboard, suggesting that these pieces will be used in a subsequent step or for additional purposes in the project."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "The cut-out cardboard pieces are not needed and can be thrown away.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Reflect on the instruction regarding the disposition of the cut-out pieces.",
+		"Explanation": "The statement is False. The instruction specifies to save the cut-out cardboard for further use, indicating that these pieces are important for future steps in the project or experiment."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Save the cut-out cardboard for _______ use.",
+		"Options": {
+			"1": "further",
+			"2": "additional",
+			"3": "subsequent",
+			"4": "extended"
+		},
+		"CorrectAnswer": "further",
+		"Hint": "Consider the instruction's emphasis on not discarding the cut-outs."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "How should the two mats be taped together to assemble the mirror frame?",
+		"Options": {
+			"1": "Along a short edge",
+			"2": "Along a diagonal",
+			"3": "Along a long edge",
+			"4": "Without overlapping edges"
+		},
+		"CorrectAnswer": "Along a long edge",
+		"Hint": "Focus on the orientation of the mats when taping them together.",
+		"Explanation": "The correct answer is c) Along a long edge. The instruction specifies that the two mats should be taped together along a long edge. This is important for creating the intended size and shape of the mirror frame."
+	},
+	{
+		"QuestionType": "True/False",
+		"Question": "The two mats should be taped together with the duct tape on the inside surfaces.",
+		"Options": {
+			"1": "True",
+			"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Consider the visibility and functionality of the duct tape in the final assembly.",
+		"Explanation": "The statement is False. While the instruction doesn't explicitly mention which side to tape, typically, the duct tape is applied on the back or the side that is less visible, not on the inside surfaces which might be visible in the final setup."
+	},
+	{
+		"QuestionType": "FillTheBlanks",
+		"Question": "Tape the two mats together along a ______ edge using duct tape to assemble the mirror frame.",
+		"Options": {
+			"1": "long",
+			"2": "short",
+			"3": "angled",
+			"4": "curved"
+		},
+		"CorrectAnswer": "long",
+		"Hint": "Think about which edge of the mats would be appropriate for creating a larger frame when joined."
+	},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "What is the purpose of taping the two mats together?",
+		  "Options": {
+			"1": "To create a decorative frame",
+			"2": "To make a frame for a one-way mirror",
+			"3": "To strengthen the mats",
+			"4": "To create a standard window"
+		  },
+		  "CorrectAnswer": "To make a frame for a one-way mirror",
+		  "Hint": "Consider the end goal related to the one-way mirror film.",
+		  "Explanation": "The correct answer is b) To make a frame for a one-way mirror. The instruction indicates that the purpose of taping the mats together is to create a frame, specifically for applying the one-way mirror film to create a one-way mirror."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "The frame created by taping the two mats together will be used for mounting standard glass.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Think about the specific type of mirror the frame is intended to support.",
+		  "Explanation": "The statement is False. The frame is not intended for standard glass but rather for making a one-way mirror with the one-way mirror film, as stated in the instruction."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "This creates a frame to make a _______ with the one-way mirror film.",
+		  "Options": {
+			"1": "one-way mirror",
+			"2": "frame",
+			"3": "mirror",
+			"4": "window"
+		  },
+		  "CorrectAnswer": "one-way mirror",
+		  "Hint": "Focus on the special characteristic of the mirror being created."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "What size should the one-way mirror film be cut to?",
+		  "Options": {
+			"1": "5” x 7”",
+			"2": "8” x 10” or slightly smaller",
+			"3": "12” x 15”",
+			"4": "The same size as the box"
+		  },
+		  "CorrectAnswer": "8” x 10” or slightly smaller",
+		  "Hint": "Recall the specific size mentioned in the instruction that matches the dimensions of a common picture frame size.",
+		  "Explanation": "The correct answer is b) 8” x 10” or slightly smaller. The instruction specifies cutting the one-way mirror film to this size to likely fit the frame created by the mats."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "The one-way mirror film should be cut larger than 8” x 10” to ensure it covers the entire frame.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Consider the precise measurement guidance provided in the instruction.",
+		  "Explanation": "The statement is False. The instruction advises cutting the one-way mirror film to 8” x 10” or slightly smaller, not larger. This size is chosen to ensure it fits appropriately within the frame created by the mats."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Cut out an ______ piece of one-way mirror film for the one-way mirror.",
+		  "Options": {
+			"1": "8” x 10” or slightly smaller",
+			"2": "oversized",
+			"3": "exact",
+			"4": "smaller"
+		  },
+		  "CorrectAnswer": "8” x 10” or slightly smaller",
+		  "Hint": "Think about the standard dimensions that match common picture frame sizes."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "Why should the layer of plastic remain on the one-way mirror film?",
+		  "Options": {
+			"1": "To protect the film during cutting",
+			"2": "To keep the mirror stiff for better reflections",
+			"3": "For easier cleaning",
+			"4": "To enhance the color of the film"
+		  },
+		  "CorrectAnswer": "To keep the mirror stiff for better reflections",
+		  "Hint": "Focus on the functional reason related to the mirror's performance."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "You should remove the plastic layer from the one-way mirror film before inserting it between the mats.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Recall the specific instruction about the plastic layer on the film."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Insert the film with the plastic layer on it between the two ______.",
+		  "Options": {
+			"1": "mats",
+			"2": "frames",
+			"3": "glass pieces",
+			"4": "mirrors"
+		  },
+		  "CorrectAnswer": "mats",
+		  "Hint": "Think about the components that are being used to create the frame for the film."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "Where should you use the two binder clips to hold the mats together?",
+		  "Options": {
+			"1": "On the taped long side",
+			"2": "On the short side",
+			"3": "On the side with the plastic layer",
+			"4": "On the long side that is not taped"
+		  },
+		  "CorrectAnswer": "On the long side that is not taped",
+		  "Hint": "Consider the specific location mentioned in the instruction."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "You should use tape instead of binder clips to hold the mats together on the long side.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Think about the recommended method for securing the mats on the long side."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Use the two binder clips to hold the mats together on the long side that is not _______.",
+		  "Options": {
+			"1": "taped",
+			"2": "covered",
+			"3": "folded",
+			"4": "cut"
+		  },
+		  "CorrectAnswer": "taped",
+		  "Hint": "Think about the characteristics of the long side mentioned in the instruction."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "What should you do with the second lid?",
+		  "Options": {
+			"1": "Place it topside up on the countertop",
+			"2": "Set it aside",
+			"3": "Stack it on top of the first lid",
+			"4": "Use it as a base for the assembly"
+		  },
+		  "CorrectAnswer": "Set it aside",
+		  "Hint": "Consider the instruction regarding the second lid."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "Both lids should be placed topside up on the countertop.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Pay attention to the specific instruction for each lid."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Place one lid topside up on the _______.",
+		  "Options": {
+			"1": "countertop",
+			"2": "table",
+			"3": "floor",
+			"4": "shelf"
+		  },
+		  "CorrectAnswer": "countertop",
+		  "Hint": "Think about the specified location for the first lid."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "What should you do with the two small pieces of cardboard separated from the lids?",
+		  "Options": {
+			"1": "Discard them",
+			"2": "Cut them into smaller pieces",
+			"3": "Cut one in half lengthwise",
+			"4": "Place them under the mats"
+		  },
+		  "CorrectAnswer": "Cut one in half lengthwise",
+		  "Hint": "Focus on the specific actions mentioned in the instruction."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "Both pieces of cardboard should be left uncut.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Consider the specific instruction regarding cutting one of the pieces."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Place the one-way mirror, which is inside the mats, on the top of the _______.",
+		  "Options": {
+			"1": "lid",
+			"2": "frame",
+			"3": "mirror",
+			"4": "surface"
+		  },
+		  "CorrectAnswer": "lid",
+		  "Hint": "Think about where the one-way mirror should be positioned."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "How many sides of the mats should the cardboard pieces create a 'frame' around when placed around the edges of the one-way mirror mat?",
+		  "Options": {
+			"1": "One side",
+			"2": "Two sides",
+			"3": "Three sides",
+			"4": "Four sides"
+		  },
+		  "CorrectAnswer": "Three sides",
+		  "Hint": "Consider the specific instruction about creating a 'frame' around the mats."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "The cardboard pieces should be placed randomly around the one-way mirror mat edges.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Think about the purpose of placing the cardboard pieces around the edges."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Then place the three pieces of cardboard around the edges of the one-way mirror mat, creating a _______ around the mats on three sides.",
+		  "Options": {
+			"1": "frame",
+			"2": "border",
+			"3": "enclosure",
+			"4": "perimeter"
+		  },
+		  "CorrectAnswer": "frame",
+		  "Hint": "Focus on the result of placing the cardboard pieces."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "What should you do to secure the cardboard pieces in place?",
+		  "Options": {
+			"1": "Glue them together",
+			"2": "Leave them loose",
+			"3": "Tape them solidly in place",
+			"4": "Stack them on top of each other"
+		  },
+		  "CorrectAnswer": "Tape them solidly in place",
+		  "Hint": "Consider the recommended method for ensuring the cardboard pieces remain in position."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "The cardboard pieces should be left untaped, allowing for easy removal.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Reflect on the purpose of taping the cardboard pieces mentioned in the instruction."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Tape the cardboard pieces _______ in place.",
+		  "Options": {
+			"1": "solidly",
+			"2": "loosely",
+			"3": "lightly",
+			"4": "tightly"
+		  },
+		  "CorrectAnswer": "solidly",
+		  "Hint": "Think about how the instruction emphasizes the manner in which the cardboard pieces should be taped."
+		},
+		{
+		  "QuestionType": "MCQ",
+		  "Question": "What is the purpose of the cardboard pieces placed around the one-way mirror?",
+		  "Options": {
+			"1": "To provide insulation",
+			"2": "To create a frame",
+			"3": "To guide and hold the mirror in place",
+			"4": "To add decoration"
+		  },
+		  "CorrectAnswer": "To guide and hold the mirror in place",
+		  "Hint": "Consider the specific function mentioned in the instruction."
+		},
+		{
+		  "QuestionType": "True/False",
+		  "Question": "The one-way mirror should remain inside the frame at all times during the assembly process.",
+		  "Options": {
+			"1": "True",
+			"2": "False"
+		  },
+		  "CorrectAnswer": "False",
+		  "Hint": "Reflect on the instruction regarding the one-way mirror's placement."
+		},
+		{
+		  "QuestionType": "FillTheBlanks",
+		  "Question": "Take the one-way mirror out of the frame and _______ it aside.",
+		  "Options": {
+			"1": "set",
+			"2": "place",
+			"3": "position",
+			"4": "store"
+		  },
+		  "CorrectAnswer": "set",
+		  "Hint": "Consider the action to be taken with the one-way mirror according to the instruction."
+		},
+	  	  
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "How should the second lid be positioned when placed on top of the first lid?",
+	  "Options": {
+		"1": "Right-side up",
+		"2": "Upside down",
+		"3": "Sideways",
+		"4": "Slanted"
+	  },
+	  "CorrectAnswer": "Upside down",
+	  "Hint": "Consider the specific orientation mentioned in the instruction.",
+	  "Explanation": "The correct answer is b) Upside down. The instruction specifies placing the second lid upside down, with the inside of the box facing up, directly on top of the first lid."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "The lids should be placed next to each other rather than on top of each other.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the instruction regarding the placement of the second lid.",
+	  "Explanation": "The statement is False. The instruction clearly states to place the second lid directly on top of the first lid, indicating a stacking arrangement rather than placing them next to each other."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Tape both box lids together. Place the second lid _______ down directly on top of the first lid.",
+	  "Options": {
+		"1": "upside",
+		"2": "downward",
+		"3": "horizontal",
+		"4": "sideways"
+	  },
+	  "CorrectAnswer": "Upside",
+	  "Hint": "Think about the specific orientation mentioned for the second lid.",
+	  "Explanation": "The correct answer is \"upside.\" The instruction instructs you to place the second lid upside down (inside of the box facing up) directly on top of the first lid."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "How many sides should you tape the two lids together?",
+	  "Options": {
+		"1": "One side",
+		"2": "Two sides",
+		"3": "Three sides",
+		"4": "Four sides"
+	  },
+	  "CorrectAnswer": "Three sides",
+	  "Hint": "Consider the specific number of sides mentioned in the instruction.",
+	  "Explanation": "The correct answer is c) Three sides. The instruction specifies taping the two lids together along three sides, indicating the number of sides to be taped."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Taping the lids together along all four sides is recommended for a secure fit.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the instruction regarding the number of sides to be taped.",
+	  "Explanation": "The statement is False. The instruction explicitly states to tape the two lids together along three sides, not all four sides. This configuration likely allows for access to insert objects inside the box model."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Tape the two lids together along _______ sides.",
+	  "Options": {
+		"1": "one",
+		"2": "two",
+		"3": "three",
+		"4": "four"
+	  },
+	  "CorrectAnswer": "three",
+	  "Hint": "Think about the specific number of sides mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"three.\" The instruction instructs you to tape the two lids together along three sides, emphasizing the need to secure them together in this manner."
+	},
+	{
+	  "QuestionType": "MultipleChoice",
+	  "Question": "Why should you not tape along the long side closest to the holes in the box model?",
+	  "Options": {
+		"1": "To prevent light from entering the box",
+		"2": "To make it easier to disassemble the box",
+		"3": "To secure the one-way mirror in place",
+		"4": "To provide insulation"
+	  },
+	  "CorrectAnswer": "To make it easier to disassemble the box",
+	  "Hint": "Consider the specific reason mentioned in the instruction.",
+	  "Explanation": "The correct answer is b) To make it easier to disassemble the box. The instruction indicates that you should not tape this side because it's where you'll slide the one-way mirror in and out, and taping it would hinder disassembly."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "Taping along the long side closest to the holes is recommended to ensure stability.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the instruction regarding taping this particular side.",
+	  "Explanation": "The statement is False. The instruction explicitly states not to tape along the long side closest to the holes, and the reason is to make it easier to disassemble the box when needed."
+	},
+	{
+	  "QuestionType": "FillTheBlanks",
+	  "Question": "Avoid taping along the long side _______ to the holes in the box model.",
+	  "Options": {
+		"1": "closest",
+		"2": "furthest",
+		"3": "parallel",
+		"4": "perpendicular"
+	  },
+	  "CorrectAnswer": "closest",
+	  "Hint": "Think about the specific side mentioned in the instruction.",
+	  "Explanation": "The correct answer is \"closest.\" The instruction advises against taping along the long side closest to the holes in the box model to facilitate the disassembly process."
+	}
+  ]
+  

@@ -1,0 +1,100 @@
+[
+  {
+    "QuestionType": "Multiple Choice",
+    "Question": "1. How does the observer's position relative to the light source influence the appearance of a mirror?",
+    "Options": {
+      "1": "It has no impact on the mirror's appearance.",
+      "2": "The mirror appears more reflective when viewed from the darker side.",
+      "3": "The mirror appears more transparent when viewed from the well-lit side.",
+      "4": "When viewed from the well-lit side, the mirror appears reflective; from the darker side, it appears more transparent."
+    },
+    "CorrectAnswer": "4",
+    "Hint": "Imagine being in a brightly lit room with a window, and it's dark outside. How does the window look from inside? Now, think of the opposite scenario.",
+    "Explanation": "When you're on the side of the mirror with lots of light (like being inside a bright room), the mirror looks shiny and reflects images, just like any regular mirror does. This happens because the bright light makes it hard to see through the mirror from this side. But, if you go to the other side where it's darker (like being outside at night), you can see through the mirror to the brighter side. This is like how, at night, you can see inside a lit house from the dark outside. So, where you stand and how much light is on your side compared to the other side changes how the mirror looks to you—reflective and shiny on the bright side, and more like a clear window from the dark side."
+  },
+  {
+    "QuestionType": "True or False",
+    "Question": "2. The direction of incident light does not affect the transparency or reflectivity of a mirror.",
+    "Options": {
+      "1": "True",
+      "2": "False"
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about a room with a window during the day versus at night. How does the light (or lack thereof) change what you see through the window?",
+    "Explanation": "Just like how a window can look like a clear glass during the day (when it's brighter outside than inside) and a reflective surface at night (when it's brighter inside than outside), the way light comes at a mirror can change how it looks. If a mirror (especially a one-way mirror) has light shining directly on it from one side, it'll look shiny and reflective from that side. But if you're on the less bright side, you might be able to see through it a bit, like looking through a window. So, the direction and amount of light really do make a difference in whether a mirror looks more like a mirror or a piece of glass you can see through."
+  },
+  {
+    "QuestionType": "Fill in the Blank",
+    "Question": "3. On the __________ side of a one-way mirror, where the incident light is lower, the mirror appears more transparent.",
+    "Options": {
+      "1": "brighter",
+      "2": "darker",
+      "3": "colored",
+      "4": "reflective"
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about being in a room that's less lit compared to the room next door that has all the lights on. If there's a special mirror between the two rooms, how does it look from your less lit room?",
+    "Explanation": "A one-way mirror works kind of like magic but it's really all about the light. If you're on the darker side (like being in a room that's not very bright), you can see through the mirror to the other side where it's brighter. It's like the mirror becomes a window! This happens because there's not much light bouncing back at you to make the mirror look shiny and reflective. So, when you're in a darker spot looking at a one-way mirror, you get to see through it more easily."
+  },
+  {
+    "QuestionType": "True or False",
+    "Question": "4. One-way mirrors are primarily used in medical imaging technologies.",
+    "Options": {
+      "1": "True",
+      "2": "False"
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about where you’ve heard of one-way mirrors being used. Are they more about looking inside the body or for watching without being seen?",
+    "Explanation": "One-way mirrors aren't really used for looking inside people, like with X-rays or MRIs in medicine. Instead, they're super handy in places like police stations or stores where people need to watch what's going on without anyone seeing them. It's all about being able to see without being seen, making sure everything's okay without interrupting or being noticed."
+  },
+  {
+    "QuestionType": "Multiple Choice",
+    "Question": "5. What is a crucial material property of a one-way mirror?",
+    "Options": {
+      "1": "Color-changing pigments.",
+      "2": "A semi-reflective coating that allows some light to pass while reflecting the rest.",
+      "3": "Full transparency.",
+      "4": "Absorption of all light."
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about how a one-way mirror works—people on one side can see through it, while it looks like a regular mirror on the other side. What feature of the mirror makes this possible?",
+    "Explanation": "A one-way mirror is kind of like a magic trick that lets light do two things at once. It has a special coat on it that's not completely solid or completely clear. This coat bounces some light back (which is why you can see your reflection if you're on the bright side) and lets some light sneak through (so if you're on the darker side, you can see to the other side). It's not about changing colors, being totally see-through, or soaking up all the light; it's all about balancing between letting some light through and reflecting some back."
+  },
+  {
+    "QuestionType": "True or False",
+    "Question": "6. A one-way mirror's coating reflects all light, allowing no visibility through the mirror.",
+    "Options": {
+      "1": "True",
+      "2": "False"
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about what makes a one-way mirror different from a regular mirror when it comes to seeing through it.",
+    "Explanation": "A one-way mirror is special because it doesn't reflect all the light like a normal mirror does. Instead, it has a clever coating that does two jobs: it reflects some of the light so you can see a reflection, but it also lets some light pass through. This means you can actually see through the mirror from one side, especially if that side is kept darker. It's not about blocking all the light; it's about balancing between seeing and hiding."
+  },
+  {
+    "QuestionType": "Fill in the Blank",
+    "Question": "7. The semi-reflective coating on a one-way mirror allows a specific amount of light to __________ while reflecting the rest.",
+    "Options": {
+      "1": "be absorbed",
+      "2": "pass through",
+      "3": "change direction",
+      "4": "become polarized"
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about how a one-way mirror works, letting you see through it from one side but not the other.",
+    "Explanation": "Imagine a one-way mirror as a kind of smart window. It has a special layer on it that knows how to do two things at once. This layer lets some of the light sneak through it, kind of like a spy. At the same time, it sends some light bouncing back, just like a regular mirror does when you look into it. So, while you can see your reflection on one side, someone on the other side can see through to your side if the conditions are right. It's not about letting all the light through or keeping it all out; it's about doing a bit of both."
+  },
+  {
+    "QuestionType": "Multiple Choice",
+    "Question": "8. Where are one-way mirrors commonly used?",
+    "Options": {
+      "1": "In decorative home interiors.",
+      "2": "In surveillance and security for controlled visibility.",
+      "3": "In outdoor advertising.",
+      "4": "In automotive headlights."
+    },
+    "CorrectAnswer": "2",
+    "Hint": "Think about a place where it's important for some people to see without being seen.",
+    "Explanation": "One-way mirrors are like special windows used mostly by the police or in stores where security people need to watch what's happening without being noticed. It's not about making things look pretty or showing ads; it's about keeping an eye on things secretly. So, if someone is behind one of these mirrors in a security room, they can see everything going on outside in the store or interrogation room, but the people on the other side just see their reflection, not knowing they’re being watched."
+  }
+]

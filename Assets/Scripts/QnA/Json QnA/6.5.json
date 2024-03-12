@@ -1,0 +1,178 @@
+[
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What happens to the light that reflects off the student in front of a one-way mirror?",
+	  "Options": {
+		"1": "All of it travels back to the student's eyes",
+		"2": "None of it reaches the teacher's eyes",
+		"3": "Some of it travels back to the student's eyes, and some transmits through the one-way mirror to the teacher's eyes",
+		"4": "It is absorbed by the one-way mirror"
+	  },
+	  "CorrectAnswer": "Some of it travels back to the student's eyes, and some transmits through the one-way mirror to the teacher's eyes",
+	  "Hint": "Consider the description of how light behaves in front of a one-way mirror.",
+	  "Explanation": "The correct answer is (c) 'Some of it travels back to the student's eyes, and some transmits through the one-way mirror to the teacher's eyes.' This describes the behavior of light in a one-way mirror."
+	},
+	{
+	  "QuestionType": "TrueFalse",
+	  "Question": "True or False: All of the light that reflects off a student in front of a one-way mirror reaches the teacher's eyes.",
+	  "Options": {
+		"1": "True",
+		"2": "False"
+	  },
+	  "CorrectAnswer": "False",
+	  "Hint": "Reflect on the information provided about the behavior of reflected light in a one-way mirror.",
+	  "Explanation": "The correct answer is False. Not all of the reflected light from the student reaches the teacher's eyes; some of it"
+	},
+	{
+	  "QuestionType": "MCQ",
+	  "Question": "What happens to about half of the light in a one-way mirror with silver structures?",
+	  "Options": {
+		"1": "It all reflects back to the student's eyes",
+		"2": "It all transmits through to the teacher's eyes",
+		"3": "About half reflects off the silver structures back to the student's eyes, and the other half transmits through to the teacher's eyes",
+		"4": "It is absorbed by the silver structures"
+	  },
+	  "CorrectAnswer": "About half reflects off the silver structures back to the student's eyes, and the other half transmits through to the teacher's eyes",
+	  "Hint": "Focus on the description of how light behaves in a one-way mirror with silver structures.",
+	  "Explanation": "The correct answer is (c) 'About half reflects off the silver structures back to the student's eyes, and the other half transmits through to the teacher's eyes.' This describes the behavior of light in such a one-way mirror."
+	},
+	{
+		"QuestionType": "FillInTheBlank",
+		"Question": "In a one-way mirror with silver structures, approximately ______ of the light reflects off the silver structures back to the student's eyes, and the other half transmits through to the teacher's eyes.",
+		"Options": {
+		"1": "25%",
+		"2": "50%",
+		"3": "75%",
+		"4": "100%"
+		},
+		"CorrectAnswer": "50%",
+		"Hint": "Consider the provided information about the division of light in a one-way mirror with silver structures.",
+		"Explanation": "The correct answer is '50%.' About 50% of the light reflects back to the student's eyes, and the other 50% transmits through to the teacher's eyes."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "Why do both the student and the teacher see the student in front of a one-way mirror?",
+		"Options": {
+		"1": "Because the student is highly reflective",
+		"2": "Because the teacher has enhanced vision",
+		"3": "Because light that has reflected off the student enters both the student's and the teacher's eyes",
+		"4": "Because the one-way mirror is transparent from both sides"
+		},
+		"CorrectAnswer": "Because light that has reflected off the student enters both the student's and the teacher's eyes",
+		"Hint": "Consider the explanation for why both individuals see the student in front of a one-way mirror.",
+		"Explanation": "The correct answer is (3) 'Because light that has reflected off the student enters both the student's and the teacher's eyes.' This explains why both can see the student."
+	},
+	{
+		"QuestionType": "TrueFalse",
+		"Question": "True or False: The student and the teacher see the student in front of a one-way mirror due to the high reflectivity of the mirror.",
+		"Options": {
+		"1": "True",
+		"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Reflect on the provided information about the reason for seeing the student.",
+		"Explanation": "The correct answer is False. The statement is incorrect because the reason both individuals see the student is that the light reflected off the student enters both of their eyes, not solely because of the mirror's reflectivity."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What is the distribution of light like on the two sides of a one-way mirror when there is bright light on one side?",
+		"Options": {
+		"1": "Bright light on both sides",
+		"2": "No light on both sides",
+		"3": "Bright light on one side, no light on the other side",
+		"4": "Dim light on both sides"
+		},
+		"CorrectAnswer": "Bright light on one side, no light on the other side",
+		"Hint": "Consider the description provided for the distribution of light when there is bright light on one side of a one-way mirror.",
+		"Explanation": "The correct answer is (3) 'Bright light on one side, no light on the other side.' This describes the behavior of light in a one-way mirror when one side is brightly lit."
+	},
+	{
+		"QuestionType": "FillInTheBlank",
+		"Question": "When there is bright light on one side of a one-way mirror, the side with no light experiences _______.",
+		"Options": {
+		"1": "dim light",
+		"2": "no light",
+		"3": "bright light",
+		"4": "intense light"
+		},
+		"CorrectAnswer": "no light",
+		"Hint": "Think about what happens to the distribution of light on the side with no light when one side is brightly lit.",
+		"Explanation": "The correct answer is 'no light.' When one side of a one-way mirror is brightly lit, the other side experiences no light."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What is the lighting condition in Room A according to the provided information?",
+		"Options": {
+		"1": "Dim light",
+		"2": "No light",
+		"3": "Bright light on Scooby Doo",
+		"4": "Bright light on the entire room"
+		},
+		"CorrectAnswer": "Bright light on Scooby Doo",
+		"Hint": "Consider the description provided for Room A's lighting condition.",
+		"Explanation": "The correct answer is (3) 'Bright light on Scooby Doo.' This indicates that there is bright light specifically on Scooby Doo in Room A."
+	},
+	{
+		"QuestionType": "TrueFalse",
+		"Question": "True or False: Room A has no light except for Scooby Doo.",
+		"Options": {
+		"1": "True",
+		"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Reflect on the provided information about the lighting condition in Room A.",
+		"Explanation": "The correct answer is False. The statement is not accurate because Room A has bright light on Scooby Doo, indicating that there is light in the room focused on the character."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What is the lighting condition in Room B according to the provided information?",
+		"Options": {
+		"1": "Dim light",
+		"2": "Bright light on monsters",
+		"3": "No light on monsters",
+		"4": "Bright light on the entire room"
+		},
+		"CorrectAnswer": "No light on monsters",
+		"Hint": "Consider the description provided for Room B's lighting condition.",
+		"Explanation": "The correct answer is (3) 'No light on monsters.' This indicates that there is no light specifically on the monsters in Room B."
+	},
+	{
+		"QuestionType": "TrueFalse",
+		"Question": "True or False: Room B is brightly lit, including the monsters.",
+		"Options": {
+		"1": "True",
+		"2": "False"
+		},
+		"CorrectAnswer": "False",
+		"Hint": "Reflect on the provided information about the lighting condition in Room B.",
+		"Explanation": "The correct answer is False. The statement is not accurate because Room B is described as having no light specifically on the monsters, which implies that the monsters are not brightly lit."
+	},
+	{
+		"QuestionType": "MCQ",
+		"Question": "What is the distribution of light like when there is bright light on one side and dim light on the other side?",
+		"Options": {
+		"1": "Bright light on both sides",
+		"2": "Dim light on both sides",
+		"3": "Bright light on one side, dim light on the other side",
+		"4": "No light on both sides"
+		},
+		"CorrectAnswer": "Bright light on one side, dim light on the other side",
+		"Hint": "Consider the description provided for the distribution of light in this scenario.",
+		"Explanation": "The correct answer is (3) 'Bright light on one side, dim light on the other side.' This describes the contrast in lighting between the two sides."
+	},
+	{
+		"QuestionType": "FillInTheBlank",
+		"Question": "When there is bright light on one side and dim light on the other side, it results in a significant difference in _______.",
+		"Options": {
+		"1": "darkness",
+		"2": "brightness",
+		"3": "intensity",
+		"4": "color"
+		},
+		"CorrectAnswer": "brightness",
+		"Hint": "Think about what happens to the lighting condition when one side has bright light and the other has dim light.",
+		"Explanation": "The correct answer is 'brightness.' When there is bright light on one side and dim light on the other side, there is a significant difference in brightness between the two sides."
+	}
+	  
+  ]
+  

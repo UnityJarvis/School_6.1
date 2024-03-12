@@ -15,7 +15,7 @@ public class ScrollButtonContentMover : MonoBehaviour
     /// <summary>
     /// The clamped x-value for moving the button content.
     /// </summary>
-    [Range(0, 350)]
+    [Range(0, 440)]
     public float xValue = 0;
 
     private void Start()
@@ -25,7 +25,7 @@ public class ScrollButtonContentMover : MonoBehaviour
 
     private void Update()
     {
-        float xClamped = Mathf.Clamp(xValue, 0, 350);
+        float xClamped = Mathf.Clamp(xValue, 0, 440);
         buttonHolder.anchoredPosition = new Vector3(xClamped, originalTransform.y, originalTransform.z);
     }
 
@@ -35,7 +35,7 @@ public class ScrollButtonContentMover : MonoBehaviour
     /// <param name="stepsToDecrease">The number of steps to decrease the x-value.</param>
     public void LeftClick(float stepsToDecrease)
     {
-        float xClamped = Mathf.Clamp(xValue, -100, 100);
+        float xClamped = Mathf.Clamp(xValue, -150, 150);
         xClamped -= stepsToDecrease;
         xValue = xClamped;
     }
@@ -46,7 +46,7 @@ public class ScrollButtonContentMover : MonoBehaviour
     /// <param name="stepsToIncrease">The number of steps to increase the x-value.</param>
     public void RightClick(float stepsToIncrease)
     {
-        float xClamped = Mathf.Clamp(xValue, -100, 100);
+        float xClamped = Mathf.Clamp(xValue, -150, 150);
         xClamped += stepsToIncrease;
         xValue = xClamped;
     }
